@@ -1,10 +1,13 @@
 # Sprint 1
 ## Aprendizado
-Nesse sprint 1 tive a oportunidade de relembrei Linux e GitHub que tive no técnico, mas também aprendi varios comandos tanto do Linux como GitHub. 
+>[!IMPORTANTE]
+>**Nesse sprint 01 tive a oportunidade de aprender novos comandos do Linux e GitHub, também me conduziu a pesquisar mais formatações do markdown.**
+**Recebi o estímulo para usar uma distribuição do linux, embora eu usei a distruição do Mint um periodo atrás, mas para esse cusrso usei Ubuntu.**  
 
-Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança.
+>**Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança.Avancei as minhas habilidades do GitHub.**
+
 ## Evidências
->[!NOTE]
+>[!NOTA]
 >**Nessa imagem mostra, quais comandos foram  utilizados para cria o repositorio local e depois fazer a sicronização no github.**
 ![weber](EVIDÊNCIAS/1_criado_repositorio.png)
 
