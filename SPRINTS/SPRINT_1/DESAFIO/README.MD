@@ -50,7 +50,7 @@ depois usou CD para entrar no diretorio vendas.
 ### Etapa 3 criação subdiretório e varial data
 * Aqui usando "mkdir backup/", Criou um subdiretório chamado backup dentro de vendas. com este comando "data_atual=$(date +"%Y%m%d")" Armazena a data atual no formato YYYYMMDD na variável data_atual.
 cp dados_de_vendas.csv backup/dados-vendas-$data_atual.csv: Copia o arquivo dados_de_vendas.csv para o diretório backup com um nome que inclui a data atual.
-![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-bs.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-b.png)
 
 ### Etapa 4 Extração dsa Datas
 * neste trecho "data_so=$(date +"%Y%m%d %HH:%MM")",é feito Armazenamento da data e hora atuais no formato" YYYYMMDD HH:MM" para a variável "data_so".
