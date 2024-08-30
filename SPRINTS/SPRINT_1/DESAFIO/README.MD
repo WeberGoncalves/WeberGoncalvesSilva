@@ -1,5 +1,5 @@
 # DESAFIO
->[!INFO]
+>
 >Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.
 >Foi criado o diretório ecommerce, como evidenciado na imagem abaixo.
 
