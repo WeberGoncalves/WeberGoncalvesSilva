@@ -1,13 +1,37 @@
 # DESAFIO
 >
->Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.
+>* Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.
 >Foi criado o diretório ecommerce, como evidenciado na imagem abaixo.
-
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12_a.png)
 
+* Em sequência foi usado comando CD para entrar na diretório Downloads e foi copiado com CP para  diretório ecommerce,  o TREE foi usado ver o arquivo copiado. 
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12-b-copiado-dados-ecommerce.png)
 
-## Script Processamento de vendas
+### Etapa 1 Desenvovimento Script 1
+* Inicia a edição do script do processamento de vendas, foi utilizado NANO para confecção. 
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12-c-edição-script-processamento.png)
+
+### Etapa 2 Explicação Script 1
+* No inicia a edição 
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-a-pasta-vendas.png)
+
+### Etapa 2 Explicação Script 1
+* No inicia a edição 
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-bs.png)
+
+### Etapa 2 Explicação Script 1
+* No inicia a edição 
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-c.png)
+
+### Etapa 2 Explicação Script 1
+* No inicia a edição 
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-d.png)
+
+### Etapa 2 Explicação Script 1
+* No inicia a edição 
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-e.png)
+
+### Script completo de Processamento_de_dados_de_vendas
 ```yaml annotate 
 #criando diretorio vendas e depois acessando ele
 mkdir vendas
