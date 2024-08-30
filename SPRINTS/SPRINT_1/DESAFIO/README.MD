@@ -45,7 +45,7 @@
 Com "cp ecommerce/dados_de_vendas.csv vendas/" Copiou o arquivo 
 dados_de_vendas.csv do diretório ecommerce para o diretório vendas,
 depois usou CD para entrar no diretorio vendas.
-![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-a-pasta-vendas.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-a.png)
 
 ### Etapa 3 criação subdiretório e varial data
 * Aqui usando "mkdir backup/", Criou um subdiretório chamado backup dentro de vendas. com este comando "data_atual=$(date +"%Y%m%d")" Armazena a data atual no formato YYYYMMDD na variável data_atual.
@@ -55,7 +55,7 @@ cp dados_de_vendas.csv backup/dados-vendas-$data_atual.csv: Copia o arquivo dado
 ### Etapa 4 Extração dsa Datas
 * neste trecho "data_so=$(date +"%Y%m%d %HH:%MM")",é feito Armazenamento da data e hora atuais no formato" YYYYMMDD HH:MM" para a variável "data_so".
 ja aqui "primeira_data=$(head -n 2 backup-dados-$data_atual.csv |cut -d "," -f 5)" é feita extração da data da primeira venda do arquivo "backup-dados-$data_atual.csv."
-"ultima_data=$(tail -n 1 backup-dados-$data_atual.csv |cut -d "," -f 5)" é feita extração da data última venda do arquivo.
+"ultima_data=$(tail -n 1 backup-dados-$data_atual.csv |cut -d "," -f 5)" neste trecho é feita extração da data última venda do arquivo.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-c.png)
 
 ### Etapa 5 
@@ -67,6 +67,17 @@ ja aqui "primeira_data=$(head -n 2 backup-dados-$data_atual.csv |cut -d "," -f 5
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-e.png)
 
 ### Script completo de Processamento_de_dados_de_vendas
+>[!IMPORTANT]
+O comando uniq é usado para remover linhas duplicadas consecutivas em um arquivo.
+
+O comando tail exibe as últimas linhas de um arquivo. Por padrão, ele mostra as últimas 10 linhas.
+
+O comando uniq é usado para remover linhas duplicadas consecutivas em um arquivo. Ele é frequentemente usado em conjunto com o comando sort.
+
+Para contar as ocorrências de linhas duplicadas, use a opção -c
+
+O comando wc (word count) é usado para contar linhas, palavras e caracteres em um arquivo.
+
 ```yaml annotate 
 #criando diretorio vendas e depois acessando ele
 mkdir vendas
