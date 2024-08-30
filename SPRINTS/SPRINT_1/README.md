@@ -4,7 +4,7 @@
 >**Nesse sprint 01 tive a oportunidade de aprender novos comandos do Linux e GitHub, também me conduziu a pesquisar mais formatações do markdown.**
 **Recebi o estímulo para usar uma distribuição do linux, embora eu usei a distruição do Mint um periodo atrás, mas para esse cusrso usei Ubuntu.**  
 
->**Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança.Avancei as minhas habilidades do GitHub.**
+>**Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança. Avancei nas minhas habilidades do GitHub.**
 
 ## Evidências
 >[!NOTE]
@@ -22,3 +22,7 @@
 >[!NOTE]
 >**Aqui mostra a primeira etapa da criação da estruturas de pasta SPRINTS.**
 ![weber](EVIDÊNCIAS/5-criando_estrutura_pastas-sprints.png)
+
+>[!NOTE]
+>**Formatação dos nomes das pastas SPRINTS, e a inserção dos links.**
+![weber](EVIDÊNCIAS/8-Editando_inserindo_links.png)
