@@ -1,34 +1,34 @@
 # DESAFIO
->>**Para esse desafio foi necessário criar repositório no Git, sistema de controle de versão, é baseado em repositórios, que contêm todas as versões do código e também as cópias de cada desenvolvedor.**
+**Para esse desafio foi necessário criar repositório no Git, sistema de controle de versão, é baseado em repositórios, que contêm todas as versões do código e também as cópias de cada desenvolvedor.**
 **Eu usei o VS Code como editor durante o curso de Git, ele possui um terminal integrado, facilitando as nossas ações com o Git, O GitHub gerencias as versões e envia por meio de código  para servidor.**  
 
->**Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança. Avancei nas minhas habilidades do GitHub.**
+**Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança. Avancei nas minhas habilidades do GitHub.**
 
 ## Evidências
 >[!NOTE]
->**Nessa imagem mostra, quais comandos foram  utilizados para cria o repositorio local e depois fazer a sicronização no github.**
+**Nessa imagem mostra, quais comandos foram  utilizados para cria o repositorio local e depois fazer a sicronização no github.**
 **OBS: as figuras a segui mostram a interface do VS Code**
-![weber](EVIDÊNCIAS/1_criado_repositorio.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/1_criado_repositorio.png)
 
 >[!NOTE]
->**Nessa imagem mostra, Adicionando arquivo Commit e mostra o status.**
-![weber](EVIDÊNCIAS/2-Adicionando_Commits.png)
+**Nessa imagem mostra, Adicionando arquivo Commit e mostra o status.**
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/2-Adicionando_Commits.png)
 
 >[!NOTE]
 >**Adicionando arquivo Commit com mensagem explicando a modificação e o push para sincronizar com repositorio github.**
-![weber](EVIDÊNCIAS/3_repositorio_remoto.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/3_repositorio_remoto.png)
 
 >[!NOTE]
 >**Aqui mostra a primeira etapa da criação da estruturas de pasta SPRINTS.**
-![weber](EVIDÊNCIAS/5-criando_estrutura_pastas-sprints.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/5-criando_estrutura_pastas-sprints.png)
 
 >[!NOTE]
 >**Formatação dos nomes das pastas SPRINTS, e a inserção dos links.**
-![weber](EVIDÊNCIAS/8-Editando_inserindo_links.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/8-Editando_inserindo_links.png)
 
 >[!NOTE]
 >**Edição e Formatação da readme do sprint 01 inserção das figuras.**
-![weber](EVIDÊNCIAS/10-B-edição-formatação-readme-sprint01.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/10-B-edição-formatação-readme-sprint01.png)
 
 >* Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.Foi criado o diretório ecommerce, como evidenciado na imagem abaixo.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12_a.png)
@@ -43,19 +43,22 @@
 ### Etapa 2 Explicação Script 1
 * Foi usado "mkdir vendas" Cria um diretório chamado “vendas”. 
 Com "cp ecommerce/dados_de_vendas.csv vendas/" Copiou o arquivo 
-dados_de_vendas.csv do diretório ecommerce para o diretório vendas, depois usou CD para entrar no diretorio vendas.
+dados_de_vendas.csv do diretório ecommerce para o diretório vendas,
+depois usou CD para entrar no diretorio vendas.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-a-pasta-vendas.png)
 
-### Etapa 2 Explicação Script 1
+### Etapa 3 criação subdiretório e varial data
 * Aqui usando "mkdir backup/", Criou um subdiretório chamado backup dentro de vendas. com este comando "data_atual=$(date +"%Y%m%d")" Armazena a data atual no formato YYYYMMDD na variável data_atual.
 cp dados_de_vendas.csv backup/dados-vendas-$data_atual.csv: Copia o arquivo dados_de_vendas.csv para o diretório backup com um nome que inclui a data atual.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-bs.png)
 
-### Etapa 2 Explicação Script 1
-* No inicia a edição 
+### Etapa 4 Extração dsa Datas
+* neste trecho "data_so=$(date +"%Y%m%d %HH:%MM")",é feito Armazenamento da data e hora atuais no formato" YYYYMMDD HH:MM" para a variável "data_so".
+ja aqui "primeira_data=$(head -n 2 backup-dados-$data_atual.csv |cut -d "," -f 5)" é feita extração da data da primeira venda do arquivo "backup-dados-$data_atual.csv."
+"ultima_data=$(tail -n 1 backup-dados-$data_atual.csv |cut -d "," -f 5)" é feita extração da data última venda do arquivo.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-c.png)
 
-### Etapa 2 Explicação Script 1
+### Etapa 5 
 * No inicia a edição 
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-d.png)
 
