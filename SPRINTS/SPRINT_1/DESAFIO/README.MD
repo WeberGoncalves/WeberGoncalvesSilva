@@ -68,15 +68,11 @@ ja aqui "primeira_data=$(head -n 2 backup-dados-$data_atual.csv |cut -d "," -f 5
 
 ### Script completo de Processamento_de_dados_de_vendas
 >[!IMPORTANT]
-O comando uniq é usado para remover linhas duplicadas consecutivas em um arquivo.
-
-O comando tail exibe as últimas linhas de um arquivo. Por padrão, ele mostra as últimas 10 linhas.
-
-O comando uniq é usado para remover linhas duplicadas consecutivas em um arquivo. Ele é frequentemente usado em conjunto com o comando sort.
-
-Para contar as ocorrências de linhas duplicadas, use a opção -c
-
-O comando wc (word count) é usado para contar linhas, palavras e caracteres em um arquivo.
+>O comando uniq é usado para remover linhas duplicadas consecutivas em um arquivo.
+>O comando tail exibe as últimas linhas de um arquivo. Por padrão, ele mostra as últimas 10 linhas.
+>O comando uniq é usado para remover linhas duplicadas consecutivas em um arquivo. Ele é frequentemente usado em conjunto com o comando sort.
+>Para contar as ocorrências de linhas duplicadas, use a opção -c
+>O comando wc (word count) é usado para contar linhas, palavras e caracteres em um arquivo.
 
 ```yaml annotate 
 #criando diretorio vendas e depois acessando ele
