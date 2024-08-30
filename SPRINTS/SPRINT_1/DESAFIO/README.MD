@@ -1,5 +1,6 @@
 DESAFIO
-´´mkdir vendas
+```yaml annotate 
+mkdir vendas
 cp ecommerce/dados_de_vendas.csv vendas/
 cd vendas/
 mkdir backup/
@@ -29,4 +30,5 @@ zip -r backup-dados-$data_atual.zip backup-dados-$data_atual.csv
 rm backup-dados-$data_atual.csv
 cd .. 
 rm dados_de_vendas.csv
-#cat backup/"$relatorio"´
+#cat backup/"$relatorio"
+´´´
