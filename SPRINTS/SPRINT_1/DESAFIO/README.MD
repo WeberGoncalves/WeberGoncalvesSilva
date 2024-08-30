@@ -3,7 +3,9 @@
 >Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.
 >Foi criado o diretório ecommerce, como evidenciado na imagem abaixo.
 
-![weber](EVIDÊNCIAS/12_a_criado_ecommerce.png)
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12_a.png)
+
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12-b-copiado-dados-ecommerce.png)
 
 ## Script Processamento de vendas
 ```yaml annotate 
