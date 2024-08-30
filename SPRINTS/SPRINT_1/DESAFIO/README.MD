@@ -1,6 +1,6 @@
 # DESAFIO
->>**Nesse sprint 01 tive a oportunidade de aprender novos comandos do Linux e GitHub, também me conduziu a pesquisar mais formatações do markdown.**
-**Recebi o estímulo para usar uma distribuição do linux, embora eu usei a distruição do Mint um periodo atrás, mas para esse cusrso usei Ubuntu.**  
+>>**Para esse desafio foi necessário criar repositório no Git, sistema de controle de versão, é baseado em repositórios, que contêm todas as versões do código e também as cópias de cada desenvolvedor.**
+**Eu usei o VS Code como editor durante o curso de Git, ele possui um terminal integrado, facilitando as nossas ações com o Git, O GitHub gerencias as versões e envia por meio de código  para servidor.**  
 
 >**Consegui Configurar a chave SSH no GitHub, que é Protocolo de comunicação de dados com segurança. Avancei nas minhas habilidades do GitHub.**
 
@@ -29,8 +29,8 @@
 >[!NOTE]
 >**Edição e Formatação da readme do sprint 01 inserção das figuras.**
 ![weber](EVIDÊNCIAS/10-B-edição-formatação-readme-sprint01.png)
->* Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.
->Foi criado o diretório ecommerce, como evidenciado na imagem abaixo.
+
+>* Em preparação foi baixado o arquivo dados_de_vendas.csv no diretório Downloads.Foi criado o diretório ecommerce, como evidenciado na imagem abaixo.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12_a.png)
 
 * Em sequência foi usado comando CD para entrar na diretório Downloads e foi copiado com CP para  diretório ecommerce,  o TREE foi usado ver o arquivo copiado. 
@@ -41,11 +41,14 @@
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12-c-edição-script-processamento.png)
 
 ### Etapa 2 Explicação Script 1
-* No inicia a edição 
+* Foi usado "mkdir vendas" Cria um diretório chamado “vendas”. 
+Com "cp ecommerce/dados_de_vendas.csv vendas/" Copiou o arquivo 
+dados_de_vendas.csv do diretório ecommerce para o diretório vendas, depois usou CD para entrar no diretorio vendas.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-a-pasta-vendas.png)
 
 ### Etapa 2 Explicação Script 1
-* No inicia a edição 
+* Aqui usando "mkdir backup/", Criou um subdiretório chamado backup dentro de vendas. com este comando "data_atual=$(date +"%Y%m%d")" Armazena a data atual no formato YYYYMMDD na variável data_atual.
+cp dados_de_vendas.csv backup/dados-vendas-$data_atual.csv: Copia o arquivo dados_de_vendas.csv para o diretório backup com um nome que inclui a data atual.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-bs.png)
 
 ### Etapa 2 Explicação Script 1
