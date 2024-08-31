@@ -1,5 +1,5 @@
 # Sprint 1
-## Aprendizado
+## Como foi a experiência?
 >[!IMPORTANT]
 >**A sprint 1 foi exatamente a tradução para nosso idioma "corrida", corrida para assistir as aulas de Linux corrida para assistir as aulas GitHub e claro corrida para completar o desafio.**
 **Por ser a primeira, ela não só ensinou as disciplina da sprint mas também gerenciamento do tempo, evitar procrastinação trabalhar sob demanda.**
