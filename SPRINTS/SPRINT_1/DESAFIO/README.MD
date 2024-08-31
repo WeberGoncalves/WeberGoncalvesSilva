@@ -85,7 +85,31 @@ Remove o arquivo de backup original e Volta para o diretório vendas.
 ### Etapa 11 Execução do Script Processamento no quarto Dia
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/12-script-dia4.png)
 
+### Etapa 12 Execução do Script Consolidador do Processamento de vendas
+* A imagem demonstra a execução do script consolidador, na linha de baixo mostra o arquivo relatório_final.txt, ainda mostra que entrei na pasta backup e abrir com CAT o relatorio final.
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/14-consolidador-a.png)
 
+### Etapa 13 relatorio final do Consolidador do Processamento de vendas
+* aqui mostra concatenação que foi para o arquivo relatório_final.txt, com data 27/08/2024
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/14-consolidador-b.png)
+
+### Etapa 14 relatorio final do Consolidador do Processamento de vendas
+* aqui continua no relatório_final.txt, com data 28/08/2024
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/14-consolidador-c.png)
+
+### Etapa 15 relatorio final do Consolidador do Processamento de vendas
+* aqui continua no relatório_final.txt, com data 29/08/2024
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/14-consolidador-d.png)
+
+### Etapa 15 relatorio final na raiz do diretorio backup
+* Final do relatório_final.txt, usei TREE para  Exibe a estrutura completa de diretórios e arquivos.
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/14-consolidador-e.png)
+
+>[!NOTE]
+>**Dificuldades encontradas**
+* Embora tivesse aprendido no técnico de informática, sobre Linux a destruição Ubuntu, mas o desafio de escrever script era algo novo.
+Tive varias pesquisas , mesmo assim deu bastante erros, mas tive o apoio dos colegas que me ajudaram varias vezes.
+no Git a dificuldade foi usar o terminal VS Code para criar sincronismo com GitHub.
 
 ### Notas Explicativas
 >[!IMPORTANT]
