@@ -53,13 +53,13 @@ depois usou CD para entrar no diretorio vendas.
 cp dados_de_vendas.csv backup/dados-vendas-$data_atual.csv: Copia o arquivo dados_de_vendas.csv para o diretório backup com um nome que inclui a data atual.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-b.png)
 
-### Etapa 4 Extração dsa Datas
+### Etapa 4 Extração das Datas
 * neste trecho "data_so=$(date +"%Y%m%d %HH:%MM")",é feito Armazenamento da data e hora atuais no formato" YYYYMMDD HH:MM" para a variável "data_so".
 ja aqui "primeira_data=$(head -n 2 backup-dados-$data_atual.csv |cut -d "," -f 5)" é feita extração da data da primeira venda do arquivo "backup-dados-$data_atual.csv."
 "ultima_data=$(tail -n 1 backup-dados-$data_atual.csv |cut -d "," -f 5)" neste trecho é feita extração da data última venda do arquivo.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-c.png)
 
-### Etapa 5 insenrindo dados no relatorio final
+### Etapa 5 inserindo dados no relatorio final
 * Neste trecho do código que ira concatenar as informações do Arquivo relatorio-data-atual.txt, fara isso por Escreve a data e hora do sistema operacional no relatório,  data da primeira venda,data da última venda, quantidade de itens vendidos.
 ![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/13-d.png)
 
