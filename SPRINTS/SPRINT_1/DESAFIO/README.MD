@@ -156,8 +156,22 @@ cd ..
 rm dados_de_vendas.csv
 #foi usado para testes=> cat backup/"$relatorio"
 ```
+## Explicação do script Consolidador de Processamento de vendas
 
-## Consolidador de Processamento de vendas
+### Etapa 1 coletando dados
+* Inicialmente mostra o caminho de onde sera retirados oa arquivos que serão concatenados, depois mostra os arquivos sendo colocana varial arquivo_relatorio
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/15-a.png)
+
+### Etapa 2 Cria o arquivo relatorio final
+* usando comado touch cria o arquivo relatorio_final.txt dentro do diretorio backup.
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/15-b.png)
+
+### Etapa 3 Juntando dados
+* usando laço de repetição FOR, faz iteração ou contatenação dos relatorio em um relatorio final.
+![weber](/SPRINTS/SPRINT_1/EVIDÊNCIAS/15-c.png)
+
+
+## Script Consolidador de Processamento de vendas
 ```yaml annotate
 #!/bin/bash
 
