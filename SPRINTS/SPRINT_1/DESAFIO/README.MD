@@ -107,7 +107,7 @@ Remove o arquivo de backup original e Volta para o diretório vendas.
 
 >[!NOTE]
 >**Dificuldades encontradas**
-* Embora tenha aprendido no técnico de informática, sobre Linux a destruição Ubuntu, mas o desafio de escrever script era algo novo.
+>* Embora tenha aprendido no técnico de informática, sobre Linux a destruição   Ubuntu, mas o desafio de escrever script era algo novo.
 Tive varias pesquisas , mesmo assim deu bastante erros, mas tive o apoio dos colegas que me ajudaram varias vezes.
 no Git a dificuldade foi usar o terminal VS Code para criar sincronismo com GitHub.
 
