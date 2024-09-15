@@ -53,8 +53,8 @@ LEFT JOIN livro l ON a.codautor = l.autor
 WHERE l.cod IS NULL
 ORDER BY a.nome ASC;
 
-                         -------Exercícios do Udemy Seção 4   -----------
----Exercícios 08- Apresente a query para listar o código e o nome do vendedor com maior número de vendas (contagem), e que estas vendas estejam com o status concluída.  As colunas presentes no resultado devem ser, portanto, cdvdd e nmvdd.
+------------------------Exercícios do Udemy Seção 4   -----------
+--Exercícios 08- Apresente a query para listar o código e o nome do vendedor com maior número de vendas (contagem), e que estas vendas estejam com o status concluída.  As colunas presentes no resultado devem ser, portanto, cdvdd e nmvdd.
 SELECT tbvendedor.cdvdd, tbvendedor.nmvdd
 FROM tbvendedor
 JOIN tbvendas on tbvendas.cdvdd = tbvendedor.cdvdd
