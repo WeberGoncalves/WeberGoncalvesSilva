@@ -54,28 +54,28 @@
 ## Exercício 11
 **Era esperado que listasse o código e nome cliente com maior gasto na loja. As colunas presentes no resultado devem ser cdcli, nmcli e gasto, esta última representando o somatório das vendas (concluídas) atribuídas ao cliente.**
 
-![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio011.png)
+![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio11.png)
 
 ## Exercício 12
 **Era esperado que listasse código, nome e data de nascimento dos dependentes do vendedor com menor valor total bruto em vendas (não sendo zero). As colunas presentes no resultado devem ser cddep, nmdep, dtnasc e valor_total_vendas.**
 
-![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio012.png)
+![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio12.png)
 
 ## Exercício 13
 **Era esperado que listasse os 10 produtos menos vendidos pelos canais de E-Commerce ou Matriz (Considerar apenas vendas concluídas).  As colunas presentes no resultado devem ser cdpro, nmcanalvendas, nmpro e quantidade_vendas.**
 
-![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio013.png)
+![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio13.png)
 
 ## Exercício 14
 **Era esperado que listasse o gasto médio por estado da federação. As colunas presentes no resultado devem ser estado e gastomedio. Considere apresentar a coluna gastomedio arredondada na segunda casa decimal e ordenado de forma decrescente.**
-![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio014.png)
+![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio14.png)
 
 ## Exercício 15
 **Era esperado que listasse Apresente a query para listar os códigos das vendas identificadas como deletadas. Apresente o resultado em ordem crescente.**
 
-![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio015.png)
+![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio15.png)
 
 ## Exercício 16
 **Era esperado que listasse  quantidade média vendida de cada produto agrupado por estado da federação. As colunas presentes no resultado devem ser estado e nmprod e quantidade_media. Considere arredondar o valor da coluna quantidade_media na quarta casa decimal. Ordene os resultados pelo estado (1º) e nome do produto (2º).Obs: Somente vendas concluídas..**
 
-![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio016.png)
+![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio16.png)
