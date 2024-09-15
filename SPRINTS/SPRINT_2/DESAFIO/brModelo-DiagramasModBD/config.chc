@@ -1,0 +1,16 @@
+#Config
+#Thu Sep 12 10:57:55 BRT 2024
+cfg.ancorador=true
+cfg.autosalvarintervalo=5
+cfg.mostrargrade=true
+cfg.apagartextoaoeditar=true
+cfg.location.y=-8
+cfg.location.x=-8
+cfg.mostrardimensoesaomover=true
+cfg.gradelargura=23
+cfg.mostrartooltips=true
+cfg.tipodefault=0
+cfg.mostrarids=false
+cfg.recentes=I\:\\Tecnol. Sistemas para Internet\\COMPASS\\Desafio a ser Feito\\brModelo-DiagramasModBD\\Conceitual_-concessionaria.brM3;I\:\\Tecnol. Sistemas para Internet\\COMPASS\\Desafio a ser Feito\\brModelo-DiagramasModBD\\L\u00F3gicol_-concessionaria.brM3;I\:\\Tecnol. Sistemas para Internet\\COMPASS\\Desafio a ser Feito\\brModelo-DiagramasModBD\\Conceitual_1-concessionaria.brM3;F\:\\DownloadsGerais\\Setembro 202\\chcandido-brModelo-06bd0f4\\Conceitual_1-concessionaria.brM3
+cfg.location.salvar=true
+cfg.propaguedeletetolines=true
