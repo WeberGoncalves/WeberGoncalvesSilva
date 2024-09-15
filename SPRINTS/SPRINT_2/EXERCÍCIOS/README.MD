@@ -79,3 +79,8 @@
 **Era esperado que listasse  quantidade média vendida de cada produto agrupado por estado da federação. As colunas presentes no resultado devem ser estado e nmprod e quantidade_media. Considere arredondar o valor da coluna quantidade_media na quarta casa decimal. Ordene os resultados pelo estado (1º) e nome do produto (2º).Obs: Somente vendas concluídas..**
 
 ![weber](/SPRINTS/SPRINT_2/EXERCÍCIOS/Exercicios_1-16_Seções_3e4/exercicio16.png)
+
+## Os códigos das resoluções
+
+
+* [**Click aqui na Extensão SQL**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_2/EXERC%C3%8DCIOS/Exerc%C3%ADcios_1_a_16_do_Udemy%20.sql)
