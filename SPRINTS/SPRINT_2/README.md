@@ -11,5 +11,4 @@
 **Como sempre essa sprint deu aperto necessario na mente para preparar para as próximas sprints que usara teria de banco de dados.**
 
 ## Exercícios
-* [**Seção 03**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_1)
- * [**Seção 04**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_2)
+* [**Seção 03 e 04**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_2/EXERC%C3%8DCIOS)
