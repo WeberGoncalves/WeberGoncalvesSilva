@@ -21,6 +21,6 @@
 **Revisei os Relacionamentos, para Mantenha manter as chaves estrangeiras para garantir a integridade referencial.**
 **Transformei o modelo logico em modelo fisico**
 
-![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico1.png)
-![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico2.png)
-![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico3.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/ModeloFísico1.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/ModeloFísico2.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/ModeloFísico3.png)
