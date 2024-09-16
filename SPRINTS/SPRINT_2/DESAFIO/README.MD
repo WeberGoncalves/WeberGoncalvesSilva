@@ -34,7 +34,7 @@
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
 
 ## Códigos em SQL do modelo Relacional
-* [**Códigos em SQL**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_2/DESAFIO/Concessionaria_Modelo_Dimensional.sql)
+* [**Códigos em SQL**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_2/DESAFIO/Concessionaria_Relacional_Normalizada.sql)
 
 ## Transformado em modelo Dimensional
 ### **Foi necessario mudar ou adequadas para análise em um ambiente de data warehouse, sistema de gerenciamento de dados projetado para suportar atividades de business intelligence (BI) e análise avançada, para isso é necessario ter tabelas fato e dimensões.**
