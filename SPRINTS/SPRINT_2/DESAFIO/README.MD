@@ -34,12 +34,35 @@
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
 
 ## Transformado em modelo Dimensional
+### **Foi necessario mudar ou adequadas para análise em um ambiente de data warehouse, sistema de gerenciamento de dados projetado para suportar atividades de business intelligence (BI) e análise avançada, para isso é necessario ter tabela fato e dimensões.**
+**Nesta imagem mostra diagrama onde Tabela de Fatos: Normalmente contém medidas quantitativas e chaves estrangeiras. No seu caso, a tabela de fatos pode ser fato_locacao.** 
+**Foi criado tabelas de Dimensões,que contêm atributos descritivos. As tabelas de dimensões podem ser dim_vendedor, dim_cliente, dim_carro.**
+
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Modelo_Lógico_dimensional.png)
+
+### **Nesta imagem mostra criação física das tabelas fato_locacao e dim_vendedor,e em seguida migrando os dados para novas tabelas, dentro BD já exixtente.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Edicao_Modelo_Dimensional-01.png)
+
+### **Nesta imagem mostra criação das tabelas dim_cliente e dim_carro, dentro  e migração dos dados para novas tabelas.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Edicao_Modelo_Dimensional-02.png)
+
+
+### **Nesta imagem mostra o teste realizado na novas tabelas para ver se estava exibindo os dados inesridos.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Edicao_Modelo_Dimensional-03.png)
 
-![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_carro.png)
-![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_cliente.png)
+### **Nesta imagem mostra a criação das Views, ou visões, são objetos de banco de dados que permitem a apresentação de dados de uma ou mais tabelas de forma virtual. Elas são essencialmente consultas armazenadas que podem ser tratadas como tabelas.** 
+### ** View da fato_locacao**
+
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_fato_locacao.png)
+
+### ** View da dim_vendedor**
+
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_vendedor.png)
+
+### ** View da dim_cliente**
+
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_cliente.png)
+
+### ** View da dim_carro**
+
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_carro.png)
