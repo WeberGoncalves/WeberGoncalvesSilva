@@ -33,6 +33,9 @@
 **Depois exibi as novas tabelas, e também uni as tabelas com Join para realizar teste.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
 
+## Códigos em SQL do modelo Relacional
+* [**Códigos em SQL**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_2/DESAFIO/Concessionaria_Modelo_Dimensional.sql)
+
 ## Transformado em modelo Dimensional
 ### **Foi necessario mudar ou adequadas para análise em um ambiente de data warehouse, sistema de gerenciamento de dados projetado para suportar atividades de business intelligence (BI) e análise avançada, para isso é necessario ter tabelas fato e dimensões.**
 **Nesta imagem mostra diagrama onde Tabela de Fatos, que contém medidas quantitativas e chaves estrangeiras. Neste caso, a tabela de fatos pode ser fato_locacao.** 
@@ -66,3 +69,6 @@
 ### ** View da dim_carro**
 
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_carro.png)
+
+## Códigos em SQL do modelo Dimensional
+* [**Códigos em SQL**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_2/DESAFIO/Concessionaria_Modelo_Dimensional.sql)
