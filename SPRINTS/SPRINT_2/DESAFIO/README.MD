@@ -8,13 +8,13 @@
  ### **Passo 2: Aplicar a 1NF**
  **Procure por dados duplicados ou colunas que não dependem completamente da chave primária.**
  **Criei Tabelas com Valores Atômicos: Certifiquei de que todas as colunas contêm valores únicos e não repetitivos, por isso usei BrModelo e fiz o modelo concetual**
- ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Modelo Conceitual.png)
+ ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloConceitual.png)
 
 **Para continuar a analise criei com BrModelo o modelo lógico**
 ### **Passo 3: Aplicar a 2NF**
 **Dividir Tabelas, verifique se tinha colunas que dependem apenas de parte da chave primária, mova-as para uma nova tabela.**
 **Criar Relacionamentos: Use chaves estrangeiras para manter a relação entre as tabelas.**
- ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Modelo_Lógico_relacional.png.png)
+ ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Modelo_Lógico_relacional.png)
 
  ### **Passo 4: Aplicar a 3NF**
  **Procurei Eliminai Dependências Transitivas: Se uma coluna não-chave depende de outra coluna não-chave, mova-a para outra tabela.**
