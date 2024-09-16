@@ -32,3 +32,14 @@
 
 **Depois exibi as novas tabelas, e também uni as tabelas com Join para realizar teste.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
+
+## Transformado em modelo Dimensional
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Modelo_Lógico_dimensional.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Edicao_Modelo_Dimensional-01.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Edicao_Modelo_Dimensional-02.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Edicao_Modelo_Dimensional-03.png)
+
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_carro.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_cliente.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_fato_locacao.png)
+![weber](/SPRINTS/SPRINT_2/DESAFIO/img/VIEW_v_dim_vendedor.png)
