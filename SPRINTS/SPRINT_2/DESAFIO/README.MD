@@ -34,8 +34,8 @@
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
 
 ## Transformado em modelo Dimensional
-### **Foi necessario mudar ou adequadas para análise em um ambiente de data warehouse, sistema de gerenciamento de dados projetado para suportar atividades de business intelligence (BI) e análise avançada, para isso é necessario ter tabela fato e dimensões.**
-**Nesta imagem mostra diagrama onde Tabela de Fatos: Normalmente contém medidas quantitativas e chaves estrangeiras. No seu caso, a tabela de fatos pode ser fato_locacao.** 
+### **Foi necessario mudar ou adequadas para análise em um ambiente de data warehouse, sistema de gerenciamento de dados projetado para suportar atividades de business intelligence (BI) e análise avançada, para isso é necessario ter tabelas fato e dimensões.**
+**Nesta imagem mostra diagrama onde Tabela de Fatos, que contém medidas quantitativas e chaves estrangeiras. Neste caso, a tabela de fatos pode ser fato_locacao.** 
 **Foi criado tabelas de Dimensões,que contêm atributos descritivos. As tabelas de dimensões podem ser dim_vendedor, dim_cliente, dim_carro.**
 
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/Modelo_Lógico_dimensional.png)
