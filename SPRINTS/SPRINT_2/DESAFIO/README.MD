@@ -24,7 +24,11 @@
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico1.png)
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico2.png)
 
- ### **Usei inialmente DB Browser SQLite para visualiza a tabela original, mas ficou mais facil criar e migrar os dados para tabelas novas usando DBeaver, até para mudar o nome do Banco.  **
+ ### **Usei inialmente DB Browser SQLite para visualiza a tabela original, mas ficou mais facil criar e migrar os dados para tabelas novas usando DBeaver, até para mudar o nome do Banco.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_01.png)
+
+**É possivel observa a criaçao das tabelas tb_cliente, tb_carro e tb_combustivel, e comamdo insert or replace into para migar os dados.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_02.png)
+
+**Depois exibi as novas tabelas, e também uni as tabelas com Join para realizar teste.**
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
