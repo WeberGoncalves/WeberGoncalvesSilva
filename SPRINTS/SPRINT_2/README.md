@@ -14,7 +14,7 @@
 * [**Seção 03 e 04**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_2/EXERC%C3%8DCIOS)
 
 ## Desafios
-### Exporta dados para aquivo com extensão CSV
+### Exporta dados para arquivo com extensão CSV
 * [**Seção 06**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_2/EXERC%C3%8DCIOS/Exercicio_Se%C3%A7%C3%A3o_6)
 
 ## Modelagem do banco Concessioaria
