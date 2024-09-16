@@ -24,7 +24,7 @@
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico1.png)
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/ModeloFísico2.png)
 
- ### **Usei inialmente DB Browser SQLite para visualiza a tabela original, mas ficou mais facil criar e migrar os dados para tabelas novas.  **
+ ### **Usei inialmente DB Browser SQLite para visualiza a tabela original, mas ficou mais facil criar e migrar os dados para tabelas novas usando DBeaver, até para mudar o nome do Banco.  **
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_01.png)
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_02.png)
 ![weber](/SPRINTS/SPRINT_2/DESAFIO/img/NovaBD_Relacional_03.png)
