@@ -6,7 +6,6 @@ def e_primo(numero):
             return False
     return True
 
-
 for num in range(1, 101):
     if e_primo(num):
         print(num)
