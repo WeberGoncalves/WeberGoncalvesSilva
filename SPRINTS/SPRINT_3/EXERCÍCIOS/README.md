@@ -1,4 +1,11 @@
 # Exercícios da Sprint 03
+### Aqui encontra os exercícios da seções 3 e 4,  como evidência que foram lançado no Udemy, tem a as imagens a baixo.
+### **Imagem 01 do Udemy**
+ ![weber](/SPRINTS/SPRINT_3/EVIDÊNCIAS/udemy_exercicios01.png)
+
+ ### **Imagem 02 do Udemy**
+ ![weber](/SPRINTS/SPRINT_3/EVIDÊNCIAS/udemy_exercicios02.png)
+
 ## **Exercício 01**
 ```yaml annotate 
 import datetime
