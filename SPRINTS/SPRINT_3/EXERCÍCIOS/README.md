@@ -7,7 +7,7 @@
  ![weber](/SPRINTS/SPRINT_3/EVIDÊNCIAS/udemy_exercicios02.png)
 
 ## **Exercício 01**
-**Chamada da função pessoa100() com a idade fornecida pelo usuário. Exibe uma mensagem informando o ano em que o usuário completará 100 anos.**
+**A chamada da função pessoa100() com a idade fornecida pelo usuário. Exibe uma mensagem informando o ano em que o usuário completará 100 anos.**
 ```yaml annotate 
 import datetime
 
@@ -41,6 +41,8 @@ for num in range(0, 21, 1):
    
 ```
 ## **Exercício 04**
+**A função e_primo() recebe um argumento "numero" , iniciamente verifica se o número for menor que 2, a função retorna False, pois números menores que 2 não são primos.Mas o coração da função é (int(numero ** 0.5) + 1) onde verifica se o número é divisível por qualquer valor de i no intervalo de 2 até a raiz quadrada do número.**
+
 ```yaml annotate
 def e_primo(numero):
     if numero < 2:
@@ -55,6 +57,7 @@ for num in range(1, 101):
         print(num)
 ```
 ## **Exercício 05**
+**Simplesmente  Imprime a data neste formato dia/mes/ano**
 ```yaml annotate
 dia = 22
 mes = 10
@@ -63,6 +66,7 @@ ano = 2022
 print(f"{dia}/{mes}/{ano}")
 ```
 ## **Exercício 06**
+**Basicamente pega duas liste transforma para Set ou conjunto e remover nuemro duplicado em cada conjunto e depois vererifica a interseção entre os conjuntos, seja, todos os elementos que estão presentes em ambos os conjuntos. depois imprime.**
 ```yaml annotate
 a = [1, 1, 2, 3, 5, 8, 14, 21, 34, 55, 89]
 b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -78,6 +82,7 @@ intersecao = set_a.intersection(set_b)
 print(list(intersecao))
 ```
 ## **Exercício 07**
+**Verifica quais números são ímpares na lista A e adiciona-os na lista numeros_impares e imprime-os.**
 ```yaml annotate
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
@@ -93,6 +98,7 @@ for num in a:
 print(numeros_impares)
 ```
 ## **Exercício 08**
+**A função e_palindromo() verifica se pode ser lida da mesma forma de trás para frente e de frente para trás, ignorando espaços, pontuação e acentuação. depois imprime quais delas são e não são palíndromo.**
 ```yaml annotate
 palavras = ['maça', 'arara', 'audio', 'radio', 'radar', 'moto']
 
@@ -107,6 +113,7 @@ for palavra in palavras:
 
 ```
 ## **Exercício 09**
+**Este algoritmo combina três listas (primeirosNomes, sobreNomes, idades) em uma sequência de tuplas, adiciona um índice a cada tupla, e imprime cada tupla em um formato legível.**
 ```yaml annotate
 primeirosNomes = ['Joao', 'Douglas', 'Lucas', 'José']
 sobreNomes = ['Soares', 'Souza', 'Silveira', 'Pedreira']
@@ -116,6 +123,7 @@ for indice, (primeiroNome, sobreNome, idade) in enumerate(zip(primeirosNomes, so
     print(f"{indice} - {primeiroNome} {sobreNome} está com {idade} anos")
 ```
 ## **Exercício 10**
+**O algoritmo remove duplicatas da lista original lista_primitiva e imprime a lista resultante lista_sem_duplicatas. Isso é útil quando você precisa garantir que uma lista contenha apenas elementos únicos.**
 ```yaml annotate
 def remover_duplicatas(lista):
     return list(set(lista))
@@ -130,6 +138,7 @@ lista_sem_duplicatas = remover_duplicatas(lista_primitiva)
 print(lista_sem_duplicatas)
 ```
 ## **Exercício 11**
+**Este algoritmo lê um arquivo JSON chamado person.json, converte seu conteúdo em um objeto Python usando json.load, e imprime esse objeto. Isso é útil para manipular dados JSON em Python, permitindo que trabalhe com eles de maneira mais conveniente e integrada ao seu código.**
 ```yaml annotate
 import json
 
@@ -145,6 +154,7 @@ with open(nome_arquivo, "r") as arquivo:
 print(dados_json)
 ```
 ## **Exercício 12**
+**O algoritmo define uma função my_map que aplica uma função a cada elemento de uma lista e retorna uma nova lista com os resultados. Neste exemplo, a função quadrado é aplicada a cada número da lista lista_de_numeros, resultando em uma lista de quadrados desses números.**
 ```yaml annotate
 def my_map(lista, funcao):
     return [quadrado(elemento) for elemento in lista]
@@ -156,13 +166,14 @@ def quadrado(x):
 # Lista de entrada
 lista_de_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# Aplicando a função square a cada elemento da lista de entrada
+# Aplicando a função quadrada a cada elemento da lista de entrada
 resultado = my_map(lista_de_numeros, quadrado)
 
 # Imprimindo o resultado
 print(resultado)
 ```
 ## **Exercício 13**
+**Este algoritmo é útil para ler e exibir o conteúdo de um arquivo de texto. Ele abre o arquivo especificado, lê todo o seu conteúdo e o imprime. Isso pode ser útil para visualizar rapidamente o conteúdo de arquivos de texto em scripts Python.**
 ```yaml annotate
 # Nome do arquivo de texto a ser lido
 nome_arquivo = "arquivo_texto.txt"
