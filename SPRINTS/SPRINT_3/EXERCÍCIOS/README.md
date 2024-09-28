@@ -308,12 +308,13 @@ print(f"Media: {media}, Mediana: {mediana}, Mínimo: {valor_minimo}, Máximo: {v
 
 ```
 ## **Exercício 20**
-**objetivo deste algoritmo é imprimir a lista a em ordem reversa.**
+**O objetivo deste algoritmo é imprimir a lista a em ordem reversa.**
 ```yaml annotate
 a = [1, 0, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 print(a[::-1])
 ```
 ## **Exercício 21**
+**O objetivo deste algoritmo é demonstrar a herança e a sobrescrita de métodos em Python. A classe base "Passaro" define comportamentos genéricos, enquanto as classes derivadas "Pato" e "Pardal" especializam o comportamento do método "emitir_som" para cada tipo específico de pássaro.**
 ```yaml annotate
 class Passaro:
     def voar(self):
@@ -342,6 +343,7 @@ pardal.voar()
 pardal.emitir_som()
 ```
 ## **Exercício 22**
+**O objetivo deste algoritmo é demonstrar o uso de propriedades em Python para encapsular atributos privados, permitindo controle sobre como esses atributos são acessados e modificados. A propriedade nome permite que o atributo "privado __nome" seja manipulado de forma segura e controlada, mantendo a interface pública simples e intuitiva.**
 ```yaml annotate
 class Pessoa:
     def __init__(self, identificador):
@@ -362,6 +364,7 @@ pessoa.nome = 'Fulano De Tal'
 print(pessoa.nome)
 ```
 ## **Exercício 23**
+**O objetivo deste algoritmo é demonstrar a criação de uma classe simples em Python que realiza operações matemáticas básicas (soma e subtração). Ele mostra como definir métodos dentro de uma classe, criar instâncias dessa classe e chamar seus métodos para realizar cálculos.**
 ```yaml annotate
 class Calculo:
     def somar(self, x, y):
@@ -386,6 +389,7 @@ print(f"Somando: {x}+{y} = {soma}")
 print(f"Subtraindo: {x}-{y} = {subtracao}")
 ```
 ## **Exercício 24**
+**O objetivo deste algoritmo é demonstrar como criar uma classe em Python que pode ordenar listas de números em ordem crescente ou decrescente. Ele mostra como definir métodos dentro de uma classe, criar instâncias dessa classe e chamar seus métodos para realizar a ordenação.**
 ```yaml annotate
 class Ordenadora:
     def __init__(self, lista):
@@ -410,6 +414,7 @@ print(resultado_crescente)
 print(resultado_decrescente)
 ```
 ## **Exercício 25**
+**O objetivo deste algoritmo é demonstrar a criação e manipulação de objetos em Python usando uma classe que representa aviões. Ele mostra como definir atributos de classe e de instância, inicializar objetos com diferentes valores e iterar sobre uma coleção de objetos para acessar e exibir suas propriedades.**
 ```yaml annotate
 class Aviao:
     cor = "Azul"  # Atributo de classe para definir a cor como "Azul" para todas as instâncias
