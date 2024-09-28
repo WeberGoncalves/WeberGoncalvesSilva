@@ -185,6 +185,7 @@ with open(nome_arquivo, "r") as arquivo:
 
 ```
 ## **Exercício 14**
+**O algoritmo com a função "imprimir_parametros(*args, **kwargs)" tem como objetivo imprimir todos os parâmetros que são passados para ela, tanto os não nomeados (também conhecidos como argumentos posicionais) quanto os nomeados (também conhecidos como argumentos de palavra-chave). Dentro da função, args é tratado como uma tupla que contém todos os argumentos posicionais passados. Já Dentro da função, kwargs é tratado como um dicionário que contém todos os argumentos nomeados passados.**
 ```yaml annotate
 def imprimir_parametros(*args, **kwargs):
     # Imprimir parâmetros não nomeados
@@ -201,6 +202,7 @@ imprimir_parametros(1, 3, 4, 'hello', parametro_nomeado='alguma coisa', x=20)
 
 ```
 ## **Exercício 15**
+**algoritmo com a classe Lampada tem como objetivo simular o comportamento de uma lâmpada, permitindo que ela seja ligada e desligada, e verificando seu estado atual (ligada ou desligada). "__init__" é o método inicializador da classe. Ele define o estado inicial da lâmpada.**
 ```yaml annotate
 class Lampada:
     def __init__(self, ligada=False):
@@ -231,6 +233,7 @@ minha_lampada.desliga()
 print("A lâmpada ainda está ligada?", minha_lampada.esta_ligada())
 ```
 ## **Exercício 16**
+**O algoritmo com a função soma_numeros_em_string tem como objetivo calcular a soma de uma série de números que estão representados como uma string, separados por vírgulas.**
 ```yaml annotate
 def soma_numeros_em_string(string_numeros):
     numeros = string_numeros.split(",")  # Dividindo a string pelos separadores de vírgula
@@ -245,10 +248,11 @@ soma_total = soma_numeros_em_string(string_numeros)
 print("Soma dos valores:", soma_total)
 ```
 ## **Exercício 17**
+**Nesse algoritmo com a função divide_lista tem como objetivo dividir uma lista em três partes aproximadamente iguais. A linha "tamanho_parte = tamanho // 3" calcula o tamanho de cada uma das três partes, usando divisão inteira para garantir que o resultado seja um número inteiro.**
 ```yaml annotate
 def divide_lista(lista):
     tamanho = len(lista)
-    tamanho_parte = tamanho // 3
+    tamanho_parte = tamanho // 3 #calcula o tamanho de cada uma das três partes.
 
     parte1 = lista[:tamanho_parte]
     parte2 = lista[tamanho_parte: 2*tamanho_parte]
@@ -266,6 +270,7 @@ parte1, parte2, parte3 = divide_lista(lista)
 print(parte1, parte2, parte3)
 ```
 ## **Exercício 18**
+
 ```yaml annotate
 speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44, 'May': 52, 'June': 53, 'july': 54, 'Aug': 44, 'Sept': 54}
 
