@@ -1,5 +1,5 @@
 # Exercícios da Sprint 03
-### Aqui encontra os exercícios da seções 3 e 4,  como evidência que foram lançado no Udemy, tem a as imagens a baixo.
+### Aqui encontra os exercícios das seções 3 e 4,  como evidências que foram lançado no Udemy, tem as imagens a baixo.
 ### **Imagem 01 do Udemy**
  ![weber](/SPRINTS/SPRINT_3/EVIDÊNCIAS/udemy_exercicios01.png)
 
@@ -7,6 +7,7 @@
  ![weber](/SPRINTS/SPRINT_3/EVIDÊNCIAS/udemy_exercicios02.png)
 
 ## **Exercício 01**
+**Chamada da função pessoa100() com a idade fornecida pelo usuário. Exibe uma mensagem informando o ano em que o usuário completará 100 anos.**
 ```yaml annotate 
 import datetime
 
@@ -21,8 +22,9 @@ com_100_anos=pessoa100(idade)
 print(f"{nome} completará 100 anos no ano de {com_100_anos}.")
 ```
 ## **Exercício 02**
+**O algoritmo identifica e imprime se cada número na lista é par ou ímpar. Usando Laço for percorre cada número na lista numeros. A condição "if num % 2 == 0" verifica se o número é par (ou seja, se o resto da divisão por 2 é zero).**
 ```yaml annotate
-numeros = list(range(10, 13, 1))  # Adiciona os números 1, 3, 5 à lista
+numeros = list(range(10, 13, 1)) 
 
 for num in numeros:
     if num % 2 == 0:             # modulo % verifica se o resto é zero 
@@ -31,9 +33,10 @@ for num in numeros:
         print(f"Ímpar: {num}")
 ```
 ## **Exercício 03**
+ **Com mesma linha de raciocínio usa um laço com a condição "if num % 2 == 0" verifica se o resto da divisão por 2 é zero. para que o algoritmo percorre todos os números de 0 a 20 e imprime apenas aqueles que são pares.**
 ```yaml annotate
 for num in range(0, 21, 1):
-     if num % 2 == 0:             # modulo % verifica se o resto é zero 
+     if num % 2 == 0:             
         print(num)
    
 ```
