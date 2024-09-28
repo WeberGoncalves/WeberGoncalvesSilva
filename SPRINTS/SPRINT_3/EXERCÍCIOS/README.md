@@ -270,7 +270,7 @@ parte1, parte2, parte3 = divide_lista(lista)
 print(parte1, parte2, parte3)
 ```
 ## **Exercício 18**
-
+**O algoritmo tem o objetivo do código fornecido é criar uma lista de valores únicos a partir dos valores de um dicionário, eliminando quaisquer duplicatas.**
 ```yaml annotate
 speed = {'jan': 47, 'feb': 52, 'march': 47, 'April': 44, 'May': 52, 'June': 53, 'july': 54, 'Aug': 44, 'Sept': 54}
 
@@ -284,6 +284,7 @@ lista_valores_unicos = list(valores_unicos)
 print(lista_valores_unicos)
 ```
 ## **Exercício 19**
+**O objetivo deste algoritmo é gerar uma lista de 50 números aleatórios dentro do intervalo de 0 a 500 e calcular algumas estatísticas básicas dessa lista, como o valor mínimo, máximo, média e mediana.**
 ```yaml annotate
 import random
 # Amostra aleatoriamente 50 números do intervalo 0...500
@@ -307,6 +308,7 @@ print(f"Media: {media}, Mediana: {mediana}, Mínimo: {valor_minimo}, Máximo: {v
 
 ```
 ## **Exercício 20**
+**objetivo deste algoritmo é imprimir a lista a em ordem reversa.**
 ```yaml annotate
 a = [1, 0, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 print(a[::-1])
