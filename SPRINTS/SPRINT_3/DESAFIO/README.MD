@@ -1,5 +1,6 @@
 # DESAFIO
 ## **Exercício 01**
+**O algoritmo carrega um arquivo CSV, remove as linhas duplicadas e salva o resultado em um novo arquivo, garantindo que os dados estejam limpos e sem duplicatas.**
 ```yaml annotate
 import pandas as pd
 # Carregar o arquivo CSV
@@ -13,6 +14,7 @@ df.to_csv('googleplaystore_sem_duplicatas.csv', index=False)
 print("Linhas duplicadas removidas e arquivo salvo como 'googleplaystore_sem_duplicatas.csv'")
 ```
 ## **Exercício 02**
+**Com ajuda das Importações das bibliotecas pandas e matplotlib.pyplot. sendo, a pandas é usada para manipulação e análise de dados, enquanto a matplotlib.pyplot é usada para criar visualizações gráficas. Assim foi possível Carregar o arquivo CSV, Converter a coluna de instalações para numérica, Obter os top 5 apps por número de instalações e por último Criar o gráfico de barras.**
 ```yaml annotate
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -39,6 +41,7 @@ plt.xticks(rotation=45)
 plt.show()
 ```
 ## **Exercício 03**
+**Este algoritmo é útil para visualizar a distribuição das categorias de aplicativos na Google Play Store, ajudando a identificar quais categorias são mais comuns.**
 ```yaml annotate
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -65,6 +68,7 @@ plt.show()
 
 ```
 ## **Exercício 04**
+**Este algoritmo carrega um arquivo CSV, filtra os aplicativos pagos, limpa e converte os preços, encontra o aplicativo mais caro e exibe essa informação.**
 ```yaml annotate
 import pandas as pd
 
@@ -84,6 +88,7 @@ app_mais_caro = df.loc[df['Price'].idxmax()]
 print(f"O aplicativo mais caro é '{app_mais_caro['App']}'\nda categoria '{app_mais_caro['Category']}' com o preço de ${app_mais_caro['Price']:.2f}.")
 ```
 ## **Exercício 05**
+**Este algoritmo carrega um arquivo CSV, filtra os aplicativos com classificação ‘Mature 17+’, remove duplicatas e conta quantos desses aplicativos existem, exibindo o resultado final.**
 ```yaml annotate
 import pandas as pd
 
@@ -103,6 +108,7 @@ num_mature_apps = mature_apps.shape[0]
 print(f"Há {num_mature_apps} aplicativos classificados como 'Mature 17+'.")
 ```
 ## **Exercício 06**
+**Neste algoritmo carrega um arquivo CSV, converte a coluna de reviews para numérico, remove linhas inválidas, ordena os aplicativos pelo número de reviews e exibe os 10 aplicativos mais revisados.**
 ```yaml annotate
 import pandas as pd
 
