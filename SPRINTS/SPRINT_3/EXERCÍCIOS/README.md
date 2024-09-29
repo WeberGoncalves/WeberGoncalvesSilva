@@ -443,7 +443,12 @@ for aviao in avioes:
     print(f"O avião de modelo {aviao.modelo} possui uma velocidade máxima de {aviao.velocidade_maxima}, capacidade para {aviao.capacidade} e é da cor {Aviao.cor}.")
 ```
 # **Exercício da seção 5**
-
+**Este algoritmo tem seis funções com objetivo especifico, na PRIMEIRA função "ler_arquivo_para_listas(nome_arquivo) o objetivo de Ler um arquivo CSV e armazenar os dados em listas. Cria um dicionário onde cada chave é um título de coluna e o valor é uma lista vazia. Para cada linha subsequente, divide a linha em partes e adiciona os valores correspondentes às listas no dicionário."**
+**Na SEGUNDA função, a função "maior_numero_filmes(dados, titulos)" Encontrar o ator com o maior número de filmes.**
+**Na TERCEIRA função, a função "media_receita_filme_mais_caro(dados, titulos)" Calcular a média da receita do filme mais caro.**
+**Na QUARTA função, a " maior_receita_por_filmes(dados, titulos)",  Encontrar o ator com a maior receita por filme.**
+**Na QUINTA função, a função "contar_aparicoes_filmes(dados, titulos)", O Objetivo é Contar as aparições de cada filme e ordenar.**
+**Na sexta e ultima função, a função "ordenar_atores_por_receita(dados, titulos)" Objetivo Ordenar os atores pela receita de bilheteria.**
 ```yaml annotate
 # Função para ler o arquivo e colocar os dados em listas
 def ler_arquivo_para_listas(nome_arquivo):
