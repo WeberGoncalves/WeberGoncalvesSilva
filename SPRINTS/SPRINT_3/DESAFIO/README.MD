@@ -133,6 +133,7 @@ for i, row in top_10_apps.iterrows():
     print(f"{row['App']} - {int(row['Reviews'])} reviews")
 ```
 ## **Exercício 07**
+**Neste algoritmo carrega um arquivo CSV, processa e limpa os dados, ordena os aplicativos pelo número de reviews, seleciona os 10 mais revisados, filtra os aplicativos pagos, encontra o mais caro e exibe essas informações.**
 ```yaml annotate
 import pandas as pd
 
@@ -168,6 +169,7 @@ for i, row in top_10_apps_reviews.iterrows():
 print(f"\nO aplicativo mais caro é '{app_mais_caro['App']}'\n da categoria '{app_mais_caro['Category']}' com o preço de ${app_mais_caro['Price']:.2f}.")
 ```
 ## **Exercício 08**
+**Neste algoritmo realizar processos, que são: Carregar o arquivo CSV; Converter a coluna ‘Reviews’ para numérico; Remover linhas com valores NaN na coluna ‘Reviews; Ordenar os aplicativos pelo número de reviews em ordem decrescente; Selecionar os top 10 aplicativos por número de reviews; Gráfico de Linhas para os top 10 aplicativos por número de reviews; Converter a coluna ‘Price’ para numérico, removendo o símbolo de dólar; Filtrar apenas os aplicativos pagos e com preço não nulo; Gráfico de Dispersão para mostrar a relação entre o preço e o número de reviews dos aplicativos pagos.**
 ```yaml annotate
 import pandas as pd
 import matplotlib.pyplot as plt
