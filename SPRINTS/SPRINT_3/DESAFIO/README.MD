@@ -1,4 +1,5 @@
 # DESAFIO
+
 ## **Exercício 01**
 **O algoritmo carrega um arquivo CSV, remove as linhas duplicadas e salva o resultado em um novo arquivo, garantindo que os dados estejam limpos e sem duplicatas.**
 ```yaml annotate

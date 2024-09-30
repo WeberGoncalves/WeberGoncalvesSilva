@@ -1,5 +1,5 @@
 # Exercícios da Sprint 03
-### Aqui encontra os exercícios das seções 3 e 4,  como evidências que foram lançado no Udemy, tem as imagens a baixo.
+### Aqui encontra os exercícios das seções 3 e 4,  como evidências que foram lançado no Udemy e foram aprovados, tem as imagens a baixo.
 ### **Imagem 01 do Udemy**
  ![weber](/SPRINTS/SPRINT_3/EVIDÊNCIAS/udemy_exercicios01.png)
 
