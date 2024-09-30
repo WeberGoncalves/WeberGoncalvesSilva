@@ -1,5 +1,12 @@
-Descrição
-Obrigatoriamente deve conter uma foto sua (não usar avatares), seu nome, sua cidade, 
-informações sobre o curso que está fazendo (semestre, instituição, ...) e informações 
-sobre experiências e conhecimentos na área (se houver).
-Outras informações que julgar importantes, também podem ser adicionadas.
+# Como foi a experiência?
+
+## Quanto ao aprendizado
+
+## Exercícios de Python
+* [**Seção 03,04 e 05**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_3/EXERC%C3%8DCIOS/README.md)
+
+
+
+## Desafios
+### Ler arquivo com extensão CSV, limpar os dados, extrair infoemações e criar gráficos
+* [**Seção 06**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_3/DESAFIO/README.MD)
