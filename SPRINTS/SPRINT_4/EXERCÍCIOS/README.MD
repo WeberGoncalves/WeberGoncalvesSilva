@@ -1,6 +1,7 @@
 # Exercícios da Sprint 04
 ### Aqui encontra os exercícios das seções 2,  como evidências que foram lançado no Udemy e foram aprovados, tem as imagens a baixo.
 ### **Imagem do Udemy**
+
  ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exerciciosProntos.png)
 
 ## Começa aqui lista dos scripts dos exercícios
@@ -12,14 +13,17 @@
 
 ## **Exercício 02**
 **Neste algoritmo a função "conta_vogais()" utiliza a função filter para extrair as vogais de uma string e, em seguida, conta o número de vogais encontradas.**
+
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_02.png)
 
 ## **Exercício 03**
 **O algoritmo tem a função lambda``"lambda x: x[0] if x[1] == 'C' else -x[0}"`` que recebe uma tupla (lançamento) como entrada e retorna o valor do lançamento se o tipo for 'C' (Crédito), indicando um acréscimo no saldo. O valor do lançamento multiplicado por -1 se o tipo for 'D' (Débito), indicando uma redução no saldo. A função map(...): Aplica a função lambda a cada elemento da lista lancamentos, criando um novo iterável com os valores ajustados.**
+
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_03.png)
 
 ## **Exercício 04**
 **A função calcular_valor_maximo recebe duas listas como entrada: uma lista de operadores aritméticos (operadores) e uma lista de pares de operandos (operandos). Ela realiza as operações especificadas pelos operadores sobre os operandos correspondentes e retorna o maior valor resultante.**
+
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_04.png)
 
 ## **Exercício 05**
@@ -29,8 +33,10 @@
 
 ## **Exercício 06**
 **Esse algoritmo tem a função maiores_que_media recebe um dicionário como entrada, onde as chaves representam nomes de produtos e os valores representam seus respectivos preços. A função calcula a média dos preços, filtra os produtos com preços acima da média e retorna uma lista ordenada desses produtos, com o nome e preço de cada um.**
+
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_06.png)
 
 ## **Exercício 07**
 **O algoritmo define uma função que gera uma sequência de números pares de 2 até um valor especificado. Essa função utiliza um gerador para retornar os números de forma eficiente,vitando a criação de uma lista completa de números pares, ``def pares_ate(n: int):``Recebe um número inteiro N como entrada, Retorna uma sequência de números pares a partir de 2 até N. ``yield:`` É uma palavra-chave usada para criar um gerador.Um gerador é uma função especial que pausa sua execução e retorna um valor, podendo ser retomada posteriormente.**
+
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_07.png)
