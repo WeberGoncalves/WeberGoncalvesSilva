@@ -23,7 +23,9 @@ CMD ["python", "carguru.py"]
 
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/Criar_Imagem01.png)
 
-**Para Executa o container a partir da imagem criada, utilizei o comando ``docker run --name carguru-container carguru-image``.**
+**Para Executa o container a partir da imagem criada, utilizei o comando ``docker run --rm carguru``.**
 **Evidência da utilização do comando.**
 
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/Criar_Imagem02.png)
+
+## **Etapa 02**
