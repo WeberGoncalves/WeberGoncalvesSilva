@@ -5,22 +5,31 @@
 
 ## Começa aqui lista dos scripts dos exercícios
 ## **Exercício 01**
-**A chamada da função pessoa100() com a idade fornecida pelo usuário. Exibe uma mensagem informando o ano em que o usuário completará 100 anos.**
-```yaml annotate 
-# Abrindo o arquivo e lendo os números
-with open('number.txt', 'r') as file:
-    numeros = list(map(int, file.readlines()))
+**Um detalhe interessante foi o uso da função "sorted(pares, reverse=True)" que Ordena a lista pares em ordem decrescente (reverse=True).[:5] Seleciona ou fatia os primeiros 5 elementos da lista ordenada, resultando nos 5 maiores números pares.**
+**Resumindo, O algoritmo lê um arquivo com números, filtra os números pares, ordena os pares em ordem decrescente, seleciona os 5 maiores e calcula a soma deles.**
 
-# Filtrando os números pares
-pares = list(filter(lambda x: x % 2 == 0, numeros))
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_01.png)
 
-# Ordenando os números pares em ordem decrescente e pegando os 5 maiores
-maiores_pares = sorted(pares, reverse=True)[:5]
+## **Exercício 02**
 
-# Calculando a soma dos 5 maiores números pares
-soma_maiores_pares = sum(maiores_pares)
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_02.png)
 
-# Exibindo os resultados
-print(maiores_pares)
-print(soma_maiores_pares)
-```
+## **Exercício 03**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_03.png)
+
+## **Exercício 04**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_04.png)
+
+## **Exercício 05**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_05.png)
+
+## **Exercício 06**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_06.png)
+
+## **Exercício 07**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_07.png)
