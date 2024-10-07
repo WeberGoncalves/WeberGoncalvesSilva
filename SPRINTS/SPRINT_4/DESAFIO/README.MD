@@ -1,1 +1,3 @@
-DESAFIO
+# DESAFIO
+### **Esse desafio me ajudou a introduzi no conhecimento das bibliotecas pandas e matplotlib.pyplot, embora recebi ajuda do monitor e dos colegas das squads, mas foi preciso muitas pesquisas para consegui execultar as atividades do desafio, estou ciente que preciso melhorar mais no uso destas bibliotecas, noentanto gostei muito de usa-las, por isso vou continuar aprofundando no uso do python e com essas e outras bibliotecas.**
+**Segue a baixo a execução das atividades do desafio.**
