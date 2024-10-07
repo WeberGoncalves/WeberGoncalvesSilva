@@ -27,7 +27,7 @@
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_04.png)
 
 ## **Exercício 05**
-**Este algoritmo tem função principal, ``def processar_notas(arquivo_csv):`` que lê um arquivo CSV contendo informações sobre estudantes e suas notas. Ele processa essas informações para calcular a média das três maiores notas de cada estudante e gera um relatório ordenado alfabeticamente pelos nomes dos estudantes, alguns dos treços importantes: ``notas = list(map(int, linha[1:])):`` que Converte as notas (a partir da segunda coluna) para números inteiros e cria uma lista com essas notas, ``maiores_notas = sorted(notas, reverse=True)[:3]:`` que Ordena as notas em ordem decrescente e seleciona as três primeiras (maiores) notas. ``media_maiores_notas = round(sum(maiores_notas) / 3, 2):`` que Calcula a média das três maiores notas e arredonda para duas casas decimais.**
+**Este algoritmo tem função principal, ``def processar_notas(arquivo_csv):`` que lê um arquivo CSV contendo informações sobre estudantes e suas notas. Ele processa essas informações para calcular a média das três maiores notas de cada estudante e gera um relatório ordenado alfabeticamente pelos nomes dos estudantes, alguns dos trechos importantes: ``notas = list(map(int, linha[1:])):`` que Converte as notas (a partir da segunda coluna) para números inteiros e cria uma lista com essas notas, ``maiores_notas = sorted(notas, reverse=True)[:3]:`` que Ordena as notas em ordem decrescente e seleciona as três primeiras (maiores) notas. ``media_maiores_notas = round(sum(maiores_notas) / 3, 2):`` que Calcula a média das três maiores notas e arredonda para duas casas decimais.**
 
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exer_05.png)
 
