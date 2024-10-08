@@ -2,7 +2,7 @@
 ### Aqui encontra os exercícios das seções 2,  como evidências que foram lançado no Udemy e foram aprovados, tem as imagens a baixo.
 ### **Imagem do Udemy**
 
- ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/exerciciosProntos.png)
+ ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/secao2Prontos.png)
 
 ## Começa aqui lista dos scripts dos exercícios
 ## **Exercício 01**
