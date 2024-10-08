@@ -1,5 +1,5 @@
 # Exercícios da Sprint 04
-### Aqui encontra os exercícios das seção 2,  com as evidências que foram lançadas no Udemy e foram aprovados, tem as imagens a baixo.
+### Aqui encontra os exercícios da seção 2,  com as evidências que foram lançadas no Udemy e foram aprovados, tem as imagens a baixo.
 ### **Imagem do Udemy**
 
  ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/secao2Prontos.png)
