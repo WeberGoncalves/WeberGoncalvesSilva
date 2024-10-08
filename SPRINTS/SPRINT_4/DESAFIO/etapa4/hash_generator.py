@@ -9,3 +9,4 @@ hex_dig = hash_object.hexdigest()
 
 # Imprime o hash na tela
 print("O hash SHA-1 da string é:", hex_dig)
+

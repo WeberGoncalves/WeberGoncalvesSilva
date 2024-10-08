@@ -2,7 +2,7 @@
 FROM python:3.12
 
 # Defina o diretório de trabalho dentro do container
-WORKDIR /etapa2
+WORKDIR /etapa4
 
 # Copie o script Python para o diretório de trabalho
 COPY hash_generator.py .

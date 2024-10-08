@@ -29,3 +29,36 @@ CMD ["python", "carguru.py"]
 ![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/Criar_Imagem02.png)
 
 ## **Etapa 02**
+### **É possível reutilizar um container?**
+**Sim, é possível reutilizar um container Docker,pois só reiniciar um container que já foi criado e parado, você pode usar o comando ``docker start``.**
+**``docker start meu-container``**
+**Se tambom foi relazidads, fez alterações no estado do container e deseja criar uma nova imagem a partir dele, você pode usar o comando ``docker commit``.**
+**docker commit meu-container nova-imagem:versao, fica assim: ``docker commit meu-container nova-imagem:versao``**
+
+## **Etapa 03**
+**Foi necessario criar algoritmo "SHA-1" em python, O principal uso do SHA-1 é verificar se um arquivo foi alterado. Ao calcular o hash de um arquivo e compará-lo com um hash previamente calculado e armazenado, é possível detectar qualquer modificação, mesmo que seja uma única letra.Entretanto, Devido às suas vulnerabilidades, o SHA-1 foi substituído por algoritmos mais seguros.**
+
+### Criado algoritmo SHA-1
+```yaml annotate
+import hashlib
+
+# Recebe a string do usuário
+input_string = input("Digite a string para gerar o hash: ")
+
+# Gera o hash SHA-1 da string
+hash_object = hashlib.sha1(input_string.encode())
+hex_dig = hash_object.hexdigest()
+
+# Imprime o hash na tela
+print("O hash SHA-1 da string é:", hex_dig)
+```
+**Criado um arquivo chamado Dockerfile no mesmo diretório, foi utilizado o comando para criar a imagem ``docker build -t hash-image .``.**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/etapa2_hash-1.png)
+
+**Executei o container a partir da imagem criada, permitindo inputs durante a execução, comando utilizado, ``docker run -it --name hash-container hash-image``.**
+
+![weber](/SPRINTS/SPRINT_4/EVIDÊNCIAS/etapa2_hash-2.png)
+
+## **Etapa 04**
+
