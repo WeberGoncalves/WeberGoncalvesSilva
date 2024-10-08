@@ -1,8 +1,8 @@
 
 # DESAFIO
-### **Esse desafio me ajudou a aplicar os conhecimentos adquiridos no curso de Docker, ao criar uma imagem diferentes dos exemplos do curso, levou a solidificar o aprendizado.**
+### **Esse desafio me ajudou a aplicar os conhecimentos adquiridos no curso de Docker, ao criar uma imagem diferentes dos exemplos do curso, me levou a solidificar o aprendizado.**
 
-**Segue a baixo a execução das atividades do desafio.**
+**Segue abaixo a execução das atividades do desafio.**
 
 ## **Etapa 01**
 **Nessa fase baixei o arquivo carguru, criei um arquivo de instruções Dockerfile que construiu uma imagem para executar o código carguru.py e depois executou um container a partir dessa imagem..**
@@ -33,10 +33,10 @@ CMD ["python", "carguru.py"]
 **Sim, é possível reutilizar um container Docker,pois só reiniciar um container que já foi criado e parado, você pode usar o comando ``docker start``.**
 **Exemplo: ``docker start meu-container``**
 **Se fez alterações no estado do container e deseja criar uma nova imagem a partir dele, pode usar o comando ``docker commit``.**
-**docker commit meu-container nova-imagem:versao, fica assim: ``docker commit meu-container nova-imagem:versao``**
+**O comando fica assim: ``docker commit meu-container nova-imagem:versao``**
 
 ## **Etapa 03**
-**Nesta etapa foi necessário criar algoritmo "SHA-1" em python, O principal uso do SHA-1 é verificar se um arquivo foi alterado. Ao calcular o hash de um arquivo e compará-lo com um hash previamente calculado e armazenado, é possível detectar qualquer modificação, mesmo que seja uma única letra.Entretanto, Devido às suas vulnerabilidades, o SHA-1 foi substituído por algoritmos mais seguros.**
+**Nesta etapa foi necessário criar algoritmo "SHA-1" em python, O principal uso do SHA-1 é verificar se um arquivo foi alterado. Ao calcular o hash de um arquivo e compará-lo com um hash previamente calculado e armazenado, é possível detectar qualquer modificação, mesmo que seja uma única letra. Entretanto, Devido às suas vulnerabilidades, o SHA-1 foi substituído por algoritmos mais seguros.**
 
 ### Criado algoritmo SHA-1
 ```yaml annotate
