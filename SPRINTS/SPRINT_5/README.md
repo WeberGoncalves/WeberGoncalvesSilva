@@ -10,7 +10,7 @@
 
 ## **"Desafios" jogo da AWS Cloud Quest**
 
-* [**Seção 03**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_5/DESAFIO/Secao_3#readme)
+* [**Seção 03**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_5/EXERC%C3%8DCIOS)
 
 ## **Desafios Sprint 5**
 
