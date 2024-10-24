@@ -8,7 +8,10 @@
 * [**Seção 02**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_5/DESAFIO/Secao_2/laboratorio.md)
 
 
+## **"Desafios" jogo da AWS Cloud Quest**
 
-## **Desafios**
+* [**Seção 03**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_5/DESAFIO/Secao_3#readme)
 
-* [**Seção 03**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_4/DESAFIO)
+## **Desafios Sprint 5**
+
+* [**Seção 03**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_5/DESAFIO/Secao_3#readme)
