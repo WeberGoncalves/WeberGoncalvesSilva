@@ -7,7 +7,7 @@
 ## **Configuração acesso como Clienete da AWS pelo Terminal**
 **Evidência 01- solicitação de cliente.**
 
-![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/conf-AWS-Cli.png)
+![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/conf-AWS-Cli-1.png)
 
 **Evidência 02- mostra acesso aprovado.**
 
@@ -47,12 +47,12 @@ print(f'Arquivo{nome_arquivo}\
 ![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/desafio_01C.png)
 
 
-**Evidência 04-.**
+**Evidência 04- continuação da execução.**
 
 ![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/Config_credenciais_AWS_4.png)
 
 ## **Configuração acesso sessão com credenciais da AWS pelo Terminal**
-**Evidência 01-.**
+**Evidência 01-credenciais da AWS pelo Terminal.**
 
 ![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/Config_credenciais_AWS_1.png)
 
@@ -118,7 +118,7 @@ print(f'Arquivo {nome_objeto_saida} salvo no bucket S3 com sucesso!')
 
 ![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/desafio_02.png)
 
-**Evidência 03- resultado pelo terminal.**
+**Evidência 03- continuação do resultado pelo terminal.**
 
 ![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/desafio_03.png)
 

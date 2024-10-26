@@ -43,3 +43,7 @@
 **Evidência de que passei nível 14 do Cloud Quest.**
 
 ![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/nivel_14.png)
+
+**Evidência de varios erros ocorria Cloud Quest, as vezes estava na Etapa 40 e simplesmente a pagina ficava preta e tinha que reinicializar o jogo.**
+
+![weber](/SPRINTS/SPRINT_5/EVIDÊNCIAS/nivel_15_tela_preta.png)
