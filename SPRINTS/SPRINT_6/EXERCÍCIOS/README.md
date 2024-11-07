@@ -1,6 +1,6 @@
 # Realização dos laboratórios AWS
 
-**Evidência 01 de criaçao do bucket na AWS.**
+**Evidência 01 - criaçao do bucket na AWS.**
 
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_A_01_criarBucket.png)
 
@@ -36,7 +36,7 @@
 select nome from meubanco.nomes where ano = 1999 order by total limit 15;
 ```
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_B_10a_consulta1999.png)
-**OBS:Na pasta dde evidencia tem o aquirvo grado da consulta: Lab_B_10b-arq-gerado-consultar-1999.csv**
+**OBS:Na pasta dde evidencia tem o aquirvo gerado da consulta: Lab_B_10b-arq-gerado-consultar-1999.csv**
 
 **Evidência 09 - 2º Teste de uma consulta que lista os 3 nomes mais usados em cada década desde o 1950 até hoje.**
 **Código** 
@@ -77,8 +77,25 @@ ORDER BY
 ```
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_B_10_consulta1950.png)
 
-**OBS: Na pasta dde evidencia tem o aquirvo grado da consulta: Lab_B_arq-gerado-consultar-1950.csv**
+**OBS: Na pasta dde evidencia tem o aquirvo gerado da consulta: Lab_B_arq-gerado-consultar-1950.csv**
 
 **Resultados das consunta no bucket**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_B_10c_resultados-consulta.png)
 
+
+**Evidência 01 - criaçao do bucket na AWS.**
+
+![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_11_Upload-Arq-minhaCamadaPandas.png)
+
+**Evidência 01 - criaçao do bucket na AWS.**
+
+![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_12_Criando-CamadaPandasLayer.png)
+
+**Evidência 01 - criaçao do bucket na AWS.**
+
+![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_13_Bucket.png)
+
+
+**Evidência 01 - criaçao do bucket na AWS.**
+
+![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_13_Execultando-Lambda.png)
