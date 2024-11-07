@@ -26,6 +26,7 @@
 
 **Evidência 06 - Configurar Athena.**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_B_08_conf-Athenas.png)
+
 **Evidência 07 - Criando banco de dados.**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_B_09_CriarBD_Tabela.png)
 
