@@ -85,7 +85,7 @@ fazer_upload(local_arquivo2, nome_bucket, local_movies)
 **Evidência 01 - Comando ``docker build -t imag_sprint6 .`` é usado para construir uma imagem Docker a partir de um Dockerfile localizado no diretório atual.**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Desafio_A_01a_criando%20Image-docker.png)
 
-**Evidência 02 - Continuação da excução do comando anterior.**
+**Evidência 02 - confirmação sucesso da excução do comando anterior.**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Desafio_A_01b_criando%20Image-docker.png)
 
 **Evidência 03 -Usando comando ``docker run -e AWS_ACCESS_KEY_ID="##" -e AWS_SECRET_ACCESS_KEY="##" -e AWS_SESSION_TOKEN="##" -e AWS_DEFAULT_REGION=us-east-1 imag_sprint6``.**
