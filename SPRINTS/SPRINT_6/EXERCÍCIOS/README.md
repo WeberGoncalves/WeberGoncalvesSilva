@@ -83,19 +83,59 @@ ORDER BY
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_B_10c_resultados-consulta.png)
 
 
-**Evidência 01 - criaçao do bucket na AWS.**
+### serviço AWS Lambda
+**O serviço AWS Lambda não possui a biblioteca pandas. Por isso, foi criar uma layer(camada) para importar bibliotecas necessárias a nossa Lambda.**
 
+**É Importante, pois camadas do Lambda fornecem um modo conveniente de empacotar bibliotecas e outras dependências que podem ser usada nas funções Lambda. O uso de camadas reduz o tamanho dos arquivos de implantação carregados e acelera a implantação do código.**
+
+**Usando um método, foi instalado as bibliotecas python e suas dependências necessárias em pasta de um Conteiner Docker, compactei-os para serem carregados na como camada da função Lambda.**
+
+**Criei uma pasta e fiz o arquivo Dockerfile, nele continha imagem de sistema operacional Linux específica da Amazon e instalador o python versão 3.9 e a ferramenta para fazer a compressão dos dados.**
+
+### Passo 01 arquivo Dockerfile com instruções da imagem
+ Layers (camadas)
+```yaml annotate
+FROM amazonlinux:2023
+RUN yum update -y
+RUN yum install -y \
+python3-pip \
+zip
+RUN yum -y clean all
+```
+### Passo 02 Usando o terminal 
+```yaml annotate
+#criado Imagem
+docker build -t amazonlinuxpython39 .
+
+#o Docker, Cria e inicia um novo contêiner a partir da imagem amazonlinuxpython39.
+#(-it) permite interagir com o contêiner de maneira interativa.
+docker run -it amazonlinuxpython39 bash
+```
+### Usando o terminal 
+```yaml annotate
+ cd ~		    #comando muda o diretório atual para o diretório home do usuário.
+mkdir layer_dir  #cria um diretório chamado layer_dir no diretório atual
+cd layer_dir/    #muda o diretório atual para o diretório layer_dir
+mkdir python     #muda o diretório atual para o diretório python
+cd python/       #comando muda o diretório atual para o diretório python
+pwd              #o comando para imprimir o diretório de trabalho atual
+pip3 install pandas -t . # instalando as bibliotecas Python
+cd ..
+zip -r minha-camada-pandas.zip . #Compactou todos os arquivos em um arquivo chamado minha-camada-pandas.zip
+docker container ls
+```
+**Evidência 11 - o upload realizado do arquivo: minha-camada-pandas.zip .**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_11_Upload-Arq-minhaCamadaPandas.png)
 
-**Evidência 01 - criaçao do bucket na AWS.**
+**Evidência 12 - Camada PandasLayer criada com sucesso.**
 
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_12_Criando-CamadaPandasLayer.png)
 
-**Evidência 01 - criaçao do bucket na AWS.**
+**Evidência 13 - todos Uploads esperados.**
 
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_13_Bucket.png)
 
 
-**Evidência 01 - criaçao do bucket na AWS.**
+**Evidência 14 - A função Runtime atualizada com êxito.**
 
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Lab_C_13_Execultando-Lambda.png)
