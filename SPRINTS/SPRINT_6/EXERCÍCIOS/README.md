@@ -93,7 +93,7 @@ ORDER BY
 **Criei uma pasta e fiz o arquivo Dockerfile, nele continha imagem de sistema operacional Linux específica da Amazon e instalador o python versão 3.9 e a ferramenta para fazer a compressão dos dados.**
 
 ### Passo 01 arquivo Dockerfile com instruções da imagem
- Layers (camadas)
+ 
 ```yaml annotate
 FROM amazonlinux:2023
 RUN yum update -y
@@ -102,7 +102,7 @@ python3-pip \
 zip
 RUN yum -y clean all
 ```
-### Passo 02 Usando o terminal 
+### Passo 02 Usando o terminal rodar comados docker
 ```yaml annotate
 #criado Imagem
 docker build -t amazonlinuxpython39 .
@@ -111,7 +111,7 @@ docker build -t amazonlinuxpython39 .
 #(-it) permite interagir com o contêiner de maneira interativa.
 docker run -it amazonlinuxpython39 bash
 ```
-### Usando o terminal 
+### Usando o terminal criar pastas
 ```yaml annotate
  cd ~		    #comando muda o diretório atual para o diretório home do usuário.
 mkdir layer_dir  #cria um diretório chamado layer_dir no diretório atual
