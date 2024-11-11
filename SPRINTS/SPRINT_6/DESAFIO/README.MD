@@ -106,3 +106,8 @@ fazer_upload(local_arquivo2, nome_bucket, local_movies)
 
 **Evidência 08 - Upload bem sucedido do arquivo series.csv.**
 ![weber](/SPRINTS/SPRINT_6/EVIDÊNCIAS/Desafio_A_06_estruturas%20da%20pastas-series.png)
+
+
+## **Analise dos Filmes.**
+
+**Analisar filmes dos últimos 20 anos do gênero drama baseados em fatos reais, e dos que não são, quais mais votados, objetivo descobrir se gostam da quando é baseado na vida real, e filtrar os em que o ator principal morre no final, quais deles são mais votados, objetivo descobrir se gostam quando ator morre no final.**
