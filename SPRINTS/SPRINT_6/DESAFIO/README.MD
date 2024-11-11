@@ -110,4 +110,4 @@ fazer_upload(local_arquivo2, nome_bucket, local_movies)
 
 ## **Analise dos Filmes.**
 
-**Analisar filmes dos últimos 20 anos do gênero drama baseados em fatos reais, e dos que não são, quais mais votados, objetivo descobrir se gostam da quando é baseado na vida real, e filtrar os em que o ator principal morre no final, quais deles são mais votados, objetivo descobrir se gostam quando ator morre no final.**
+**Analisar filmes dos últimos 20 anos do gênero drama baseados em fatos reais, e dos que não são, quais mais votados, objetivo descobrir se gostam de quando é baseado na vida real, e filtrar os em que o ator principal morre no final, e quais deles são mais votados, objetivo descobrir se gostam quando ator morre no final do filme.**
