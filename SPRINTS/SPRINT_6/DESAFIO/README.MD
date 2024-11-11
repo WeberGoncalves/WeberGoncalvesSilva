@@ -2,7 +2,7 @@
 
 **Nessa sprint além de configurar o cliente AWS e as credências de acesso para usar a biblioteca boto3 do python, foi criado imagem para criar container no Docker, e do container excutar script ´´criarBucket.py``, assim foi possível realizar o upload de dois arquivos CSV(movies e series) para esse bucket, organizando-os por dados em diretórios específico.**
 
-## **Dockerfile- instruções para cosntruir imagem no docker**
+## **Dockerfile- instruções para construir imagem no docker**
 ```yaml annotate
 # Imagem base do Python
 FROM python:3.9-slim
