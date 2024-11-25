@@ -47,6 +47,7 @@ contagem_palavras.show(truncate=False)
 
 ![weber](/SPRINT_7/EVIDÊNCIAS/ContadorPalavras02.png)
 
+
 **---------------------------------------------------------------**
 ## **Seção 05- Lab AWS Glue.**
  
