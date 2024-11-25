@@ -15,4 +15,4 @@
 **Seção 04- Apache Spark- contador de palavras.**
 **Seção 05- Lab AWS Glue.**
 
-* [**----Seções-----**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS)
+* [**----  Seções  -----**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS)
