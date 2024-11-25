@@ -4,11 +4,11 @@
 
 **Evidência 01 - foi necessario criar conta no site TMDB para poder utilizar cheve apiTmdb.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/TestandoCredencias_01-API_TMDB.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/TestandoCredencias_01-API_TMDB.png)
 
 **Evidência 02 - Com script simples para testar a chave tmdb.** 
 
-![weber](/SPRINT_7/EVIDÊNCIAS/TestandoCredencias_02-API_TMDB.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/TestandoCredencias_02-API_TMDB.png)
 
 **Algoritmo utilizado para teste**
 
@@ -153,44 +153,44 @@ docker container ls
 ´´´
 **Evidência 03- criação do diretório onde ocorrera instalações das bibliotecas.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_01_A-criandoPath.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_01_A-criandoPath.png)
 
 **Evidência 04- continuação da criação do diretório.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_01_B-criandoPath.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_01_B-criandoPath.png)
 
 **Evidência 05- instalada Biblioteca requests.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_03_isntall_requests.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_03_isntall_requests.png)
 
 **Evidência 06- instalada Biblioteca tmdbv3api.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_04_isntall_tmdbv3api.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_04_isntall_tmdbv3api.png)
 
 **Evidência 07- usando o terminal do Windows para Compactar todos os arquivos das Bibliotecas instaladas na pasta Python.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_05_Zip_tmdbv3api.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_05_Zip_tmdbv3api.png)
 
 **Evidência 08- upload do layer criado para lambda.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_06_upload_tmdb3api.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_06_upload_tmdb3api.png)
 
 **Evidência 09- configurando as permissões necessarias para usa lambda.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Layer_07_permissoes-necessarias-lambda-s3.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_07_permissoes-necessarias-lambda-s3.png)
 
 **Evidência 10- configurando as variáveis de ambientes no lambda.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Desafio-2A-script-antes-execultado.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Desafio-2A-script-antes-execultado.png)
 
 **Evidência 11- algoritmo sendo execultado no lambda.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Desafio-2B-script-execultado.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Desafio-2B-script-execultado.png)
 
 **Evidência 12- resultado da execução do algoritmo.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Desafio-2C-script-final-execução.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Desafio-2C-script-final-execução.png)
 
 **Evidência 13- foi enviados as pesquisa dos filmes para diretorio dentro do bucket s3.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Desafio-2D-arquivos-gerados-S3.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Desafio-2D-arquivos-gerados-S3.png)

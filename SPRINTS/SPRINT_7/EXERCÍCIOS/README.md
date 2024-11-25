@@ -53,39 +53,39 @@ contagem_palavras.show(truncate=False)
  
 **Evidência 01 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab-B_1_Glue-upload-nomes.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab-B_1_Glue-upload-nomes.png)
 
 
 **Evidência 02 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_1_Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_1_Glue.png)
 
 **Evidência 03 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_2_Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_2_Glue.png)
 
 
 **Evidência 04 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_3_Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_3_Glue.png)
 
 **Evidência 05 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_4_Criando-novo-job-AWS-Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4_Criando-novo-job-AWS-Glue.png)
 
 
 **Evidência 06 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_4B_Criando-novo-job-AWS-Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4B_Criando-novo-job-AWS-Glue.png)
 
 **Evidência 07 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_4C_novo-job-Corrigido-AWS-Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4C_novo-job-Corrigido-AWS-Glue.png)
 
 
 **Evidência 08 - texto.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/Lab_4D_novo-job-Corrigido-AWS-Glue.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4D_novo-job-Corrigido-AWS-Glue.png)
 
 
 ### Algoritmo completo
