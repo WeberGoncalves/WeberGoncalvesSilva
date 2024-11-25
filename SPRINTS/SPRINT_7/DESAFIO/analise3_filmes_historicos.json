@@ -1,0 +1,204 @@
+{
+    "historicos_baseados_em_fatos": [],
+    "historicos_nao_baseados_mais_votados": [
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                36
+            ],
+            "id": 1390781,
+            "original_language": "en",
+            "original_title": "Side Launch",
+            "overview": "",
+            "popularity": 0.36,
+            "poster_path": "/lNPxhSY7rMPsKOaUt2Tt8DeKaxo.jpg",
+            "release_date": "2023-04-18",
+            "title": "Side Launch",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pgtfzOjDMhGqjuGDpKlfUcDbC7L.jpg",
+            "genre_ids": [
+                10402,
+                36,
+                18
+            ],
+            "id": 1390549,
+            "original_language": "en",
+            "original_title": "Oscar",
+            "overview": "",
+            "popularity": 1.96,
+            "poster_path": "/uNoLLUnYrfP5JF5oOwnkjHLmFOF.jpg",
+            "release_date": "2024-11-19",
+            "title": "Oscar",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                36
+            ],
+            "id": 1390543,
+            "original_language": "en",
+            "original_title": "The Emptiness of the Universe - Immersing Deep Space",
+            "overview": "",
+            "popularity": 0.787,
+            "poster_path": "/wpatwH6jwhcIGVFVv70ZyXitPMW.jpg",
+            "release_date": "2024-10-01",
+            "title": "The Emptiness of the Universe - Immersing Deep Space",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6YTNh6Ppl3pitu1ndd1L7MFDiFW.jpg",
+            "genre_ids": [
+                10752,
+                18,
+                36
+            ],
+            "id": 1389678,
+            "original_language": "en",
+            "original_title": "Empty Eyes",
+            "overview": "",
+            "popularity": 3.842,
+            "poster_path": "/9pSWit9zp6RSqEV0D0G3ooRznPN.jpg",
+            "release_date": "2024-11-18",
+            "title": "Empty Eyes",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rNZIHoTUMKPkpISHezQQRVMLJMV.jpg",
+            "genre_ids": [
+                36,
+                35,
+                16
+            ],
+            "id": 1388592,
+            "original_language": "nb",
+            "original_title": "Karoline Augusta Antonsen",
+            "overview": "",
+            "popularity": 4.202,
+            "poster_path": "/mxXjI9LO7Bu7ph1oaEq28eTQKl0.jpg",
+            "release_date": "2024-11-10",
+            "title": "Karoline Augusta Antonsen",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99,
+                18,
+                36
+            ],
+            "id": 1388532,
+            "original_language": "pt",
+            "original_title": "em silêncio, amor",
+            "overview": "",
+            "popularity": 1.322,
+            "poster_path": "/gHceIM4FEyl5XLrEnKfufuJbVX8.jpg",
+            "release_date": "2024-10-29",
+            "title": "em silêncio, amor",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/a19TsuyfTDNdefuS6oXC2TqycrB.jpg",
+            "genre_ids": [
+                18,
+                36,
+                10752,
+                10749,
+                10770
+            ],
+            "id": 1386686,
+            "original_language": "pl",
+            "original_title": "Czas Honoru",
+            "overview": "",
+            "popularity": 0.63,
+            "poster_path": "/8TZ76au1eEgK4qgAU5dApkttHni.jpg",
+            "release_date": "2008-09-07",
+            "title": "Czas Honoru",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/oiGP57vYW2o4BZRoDmck3hcrXFm.jpg",
+            "genre_ids": [
+                36,
+                18
+            ],
+            "id": 1383610,
+            "original_language": "ko",
+            "original_title": "Drama Special Season 15: The History of Us",
+            "overview": "",
+            "popularity": 2.498,
+            "poster_path": "/5L9tNoIiDMXR6KUFl99EisFVcZX.jpg",
+            "release_date": "2024-11-05",
+            "title": "Drama Special Season 15: The History of Us",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xAYw4x35NEW5n6k6q99WXmtXQvQ.jpg",
+            "genre_ids": [
+                878,
+                14,
+                9648,
+                36,
+                16
+            ],
+            "id": 1374268,
+            "original_language": "es",
+            "original_title": "Tlön",
+            "overview": "",
+            "popularity": 1.508,
+            "poster_path": "/tPWddAepXCDnAI3ZBGeWT322eYL.jpg",
+            "release_date": "2024-10-18",
+            "title": "Tlön",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 2
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/z5yAOnCSvTpYtXpaoJYIQ750KjR.jpg",
+            "genre_ids": [
+                36,
+                99
+            ],
+            "id": 1369702,
+            "original_language": "fr",
+            "original_title": "La Commune de Paris 1871",
+            "overview": "",
+            "popularity": 0.376,
+            "poster_path": "/ifgDKkhqRXx92oO4WxW4IrozBlk.jpg",
+            "release_date": "2004-05-08",
+            "title": "La Commune de Paris 1871",
+            "video": false,
+            "vote_average": 10.0,
+            "vote_count": 1
+        }
+    ]
+}
