@@ -51,39 +51,39 @@ contagem_palavras.show(truncate=False)
 **---------------------------------------------------------------**
 ## **Seção 05- Lab AWS Glue.**
  
-**Evidência 01 - texto.**
+**Evidência 01 - realizado upload do arquivo nomes.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab-B_1_Glue-upload-nomes.png)
 
 
-**Evidência 02 - texto.**
+**Evidência 02 - Configurando sua conta para utilizar o AWS Glue.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_1_Glue.png)
 
-**Evidência 03 - texto.**
+**Evidência 03 - Configurando para utilizar o AWS Glue.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_2_Glue.png)
 
 
-**Evidência 04 - texto.**
+**Evidência 04 - Configurando utilizar o AWS Glue.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_3_Glue.png)
 
-**Evidência 05 - texto.**
+**Evidência 05 - Configurando da função no AWS Glue.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4_Criando-novo-job-AWS-Glue.png)
 
 
-**Evidência 06 - texto.**
+**Evidência 06 - criando no job.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4B_Criando-novo-job-AWS-Glue.png)
 
-**Evidência 07 - texto.**
+**Evidência 07 - job executado com sucesso.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4C_novo-job-Corrigido-AWS-Glue.png)
 
 
-**Evidência 08 - texto.**
+**Evidência 08 - arquivos gerados.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Lab_4D_novo-job-Corrigido-AWS-Glue.png)
 
