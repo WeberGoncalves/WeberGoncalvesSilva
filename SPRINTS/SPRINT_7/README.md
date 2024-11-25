@@ -14,9 +14,9 @@
 
 **Apache Spark- contador de palavras.**
 
-* [**Seção 04**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_6/DESAFIO)
+* [**Seção 04**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS/contaPalavras/README.md)
 
 
 **Lab AWS Glue.**
 
-* [**Seção 05**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_6/DESAFIO)
+* [**Seção 05**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS/LabGlue/README.md)
