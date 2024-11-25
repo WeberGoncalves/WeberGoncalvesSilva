@@ -40,12 +40,12 @@ contagem_palavras.show(truncate=False)
 ```
 **Evidência 01 - Algoritmo executado.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/ContadorPalavras01.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/ContadorPalavras01.png)
 
 
 **Evidência 02 - O termino da Execução com resultado das quantidades.**
 
-![weber](/SPRINT_7/EVIDÊNCIAS/ContadorPalavras02.png)
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/ContadorPalavras02.png)
 
 
 **---------------------------------------------------------------**
