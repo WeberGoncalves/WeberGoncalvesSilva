@@ -12,11 +12,7 @@
 
 ## **Exercícios em forma de Laboratórios AWS**
 
-**Apache Spark- contador de palavras.**
+**Seção 04- Apache Spark- contador de palavras.**
+**Seção 05- Lab AWS Glue.**
 
-* [**Seção 04**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS/contaPalavras/README.md)
-
-
-**Lab AWS Glue.**
-
-* [**Seção 05**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS/LabGlue/README.md)
+* [**Seções**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/blob/main/SPRINTS/SPRINT_7/EXERC%C3%8DCIOS/contaPalavras/README.md)
