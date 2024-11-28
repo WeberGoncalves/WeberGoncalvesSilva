@@ -46,7 +46,7 @@ nome_arquivo1 = "series.csv"
 nome_arquivo2 = "movies.csv"
 
 # Usando hífens para o formato de data
-data = datetime.now().strftime("%Y-%m-%d")
+data = datetime.now().strftime("%Y/%m/%d")
 
 # Definir os caminhos no S3
 local_series = f"RAW/Local/CSV/Series/{data}/{nome_arquivo1}"
