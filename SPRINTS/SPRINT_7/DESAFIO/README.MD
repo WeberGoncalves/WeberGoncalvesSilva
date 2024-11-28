@@ -49,15 +49,15 @@ import json
 from datetime import datetime
 
 # Função para buscar filmes pelo TMDb
-def buscar_filmes(chave_api, genero_id, ano_inicio, ordenacao="vote_average.desc", limite=100):
+def buscar_filmes(chave_api, generos, ano_inicio, ordenacao="vote_average.desc", limite=100):
     url_base = "https://api.themoviedb.org/3/discover/movie"
     filmes = []
     pagina = 1
     while len(filmes) < limite:  # Continuar até encontrar o limite desejado
         parametros = {
             "api_key": chave_api,
-            "language": "pt-BR",  # Garantir que os dados sejam em português
-            "with_genres": genero_id,
+            "language": "en-US",  # Garantir que os dados sejam em inglês
+            "with_genres": ','.join(map(str, generos)),
             "primary_release_date.gte": f"{ano_inicio}-01-01",
             "sort_by": ordenacao,
             "page": pagina,
@@ -76,9 +76,34 @@ def buscar_filmes(chave_api, genero_id, ano_inicio, ordenacao="vote_average.desc
 
     return filmes[:limite]  # Limitar a lista de filmes ao número máximo desejado
 
-# Função para filtrar dramas baseados em fatos reais (input manual ou flag externa)
-def filtrar_baseados_em_fatos(filmes, baseados_ids):
-    return [filme for filme in filmes if filme["id"] in baseados_ids]
+# Função para coletar dados detalhados dos filmes
+def coletar_detalhes_filmes(filmes, chave_api):
+    detalhes_filmes = []
+    for filme in filmes:
+        id_filme = filme["id"]
+        url_detalhes = f"https://api.themoviedb.org/3/movie/{id_filme}/credits?api_key={chave_api}&language=en-US"
+        resposta = requests.get(url_detalhes)
+        if resposta.status_code == 200:
+            dados_creditos = resposta.json()
+            artistas = 
+            [
+                {
+                    "personagem": ator.get("character"),
+                    "nome_artista": ator.get("name"),
+                    "genero_artista": ator.get("gender")
+                }
+                for ator in dados_creditos.get("cast", [])
+            ]
+            detalhes_filmes.append(
+            {
+                "titulo_original": filme["original_title"],
+                "ano_lancamento": filme["release_date"],
+                "genero": filme["genre_ids"],  # IDs dos gêneros
+                "nota_media": filme["vote_average"],
+                "numero_votos": filme["vote_count"],
+                "artistas": artistas
+            })
+    return detalhes_filmes
 
 # Função para salvar os resultados em um arquivo JSON
 def salvar_resultados(dados, nome_arquivo):
@@ -89,47 +114,25 @@ def salvar_resultados(dados, nome_arquivo):
 # Função principal
 def main():
     chave_api = "69ffc9d18f474342b528dea570e23a23"  # Substitua pela sua chave de API do TMDb
-    genero_drama_id = 18  # ID do gênero "drama" no TMDb
-    genero_historico_id = 36  # ID do gênero "histórico" no TMDb
-    ano_inicio = datetime.now().year - 60  # Últimos 60 anos
+    generos_ids = [80, 10752]  # IDs dos gêneros "crime" (80) e "guerra" (10752)
+    ano_inicio = datetime.now().year - 50  # Últimos 50 anos
     
-    # Buscar filmes do gênero drama, mais votados
-    filmes_drama_votados = buscar_filmes(chave_api, genero_drama_id, ano_inicio, "vote_average.desc")
+    # Buscar filmes dos gêneros crime e guerra, mais votados
+    filmes_votados = buscar_filmes(chave_api, generos_ids, ano_inicio, "vote_average.desc")
     
-    # Buscar filmes do gênero histórico, mais votados
-    filmes_historicos_votados = buscar_filmes(chave_api, genero_historico_id, ano_inicio, "vote_average.desc")
-    
-    # Combinar os resultados de ambos os gêneros
-    todos_filmes_votados = filmes_drama_votados + filmes_historicos_votados
-    
-    # IDs de filmes baseados em fatos reais (insira manualmente ou use outra lógica)
-    baseados_em_fatos_ids = [123, 456]  # Substitua pelos IDs corretos
-    
-    # Filtrar baseados em fatos reais
-    filmes_baseados = filtrar_baseados_em_fatos(todos_filmes_votados, baseados_em_fatos_ids)
-    
-    # Filtrar não baseados em fatos reais
-    filmes_nao_baseados = [filme for filme in todos_filmes_votados if filme["id"] not in baseados_em_fatos_ids]
-    
-    # Ordenar por média de votos
-    filmes_nao_baseados = sorted(filmes_nao_baseados, key=lambda x: x["vote_average"], reverse=True)
-
-    # Identificar os mais populares
-    filmes_populares = sorted(todos_filmes_votados, key=lambda x: x["popularity"], reverse=True)
-    
-    # Resultado final
-    resultado = {
-        "filmes_baseados_em_fatos": filmes_baseados,
-        "filmes_nao_baseados_mais_votados": filmes_nao_baseados[:10],  # Top 10 mais votados
-        "filmes_populares": filmes_populares[:10],  # Top 10 mais populares
-    }
+    # Coletar detalhes dos filmes
+    detalhes_filmes = coletar_detalhes_filmes(filmes_votados, chave_api)
     
     # Salvar resultados
-    salvar_resultados(resultado, "analise_filmes_historicos_drama.json")
+    salvar_resultados(detalhes_filmes, "filmes_crime_guerra.json")
     
     # Contabilizar quantos filmes foram encontrados
-    total_filmes_encontrados = len(todos_filmes_votados)
+    total_filmes_encontrados = len(detalhes_filmes)
     print(f"Total de filmes encontrados: {total_filmes_encontrados}")
+    
+    # Imprimir lista de anos dos filmes encontrados
+    anos_filmes = [filme["ano_lancamento"][:4] for filme in detalhes_filmes]
+    print("Anos dos filmes encontrados:", anos_filmes)
 
 # Executar o script
 if __name__ == "__main__":
