@@ -199,6 +199,10 @@ docker container ls
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Desafio-2D-arquivos-gerados-S3.png)
 
+**Evidência 14- foi ajuste no diretorio dentro do bucket s3.**
+
+![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Desafio-2E-arquivos-gerados-S3.png)
+
 **Algoritmo utilizado no AWS Lambda.**
 ```yaml annotate
 import json
@@ -212,7 +216,8 @@ def buscar_filmes(chave_api, generos, ano_inicio, ordenacao="vote_average.desc",
     filmes = []
     pagina = 1
     while len(filmes) < limite:  # Continuar até encontrar o limite desejado
-        parametros = {
+        parametros = 
+        {
             "api_key": chave_api,
             "language": "en-US",  # Garantir que os dados sejam em inglês
             "with_genres": ','.join(map(str, generos)),
@@ -252,7 +257,8 @@ def coletar_detalhes_filmes(filmes, chave_api):
                 }
                 for ator in dados_creditos.get("cast", [])
             ]
-            detalhes_filmes.append({
+            detalhes_filmes.append(
+            {
                 "titulo_original": filme["original_title"],
                 "ano_lancamento": filme["release_date"],
                 "genero": filme["genre_ids"],  # IDs dos gêneros
