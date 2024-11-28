@@ -243,7 +243,8 @@ def coletar_detalhes_filmes(filmes, chave_api):
         resposta = requests.get(url_detalhes)
         if resposta.status_code == 200:
             dados_creditos = resposta.json()
-            artistas = [
+            artistas = 
+            [
                 {
                     "personagem": ator.get("character"),
                     "nome_artista": ator.get("name"),
