@@ -185,3 +185,12 @@ df_generations.show()
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/seção_02/spark_04.png)
 
 
+## **Na seção 03 Laboratorio do teste da Biblioteca TMDB**
+
+**Evidência 08 - srcipt sendo executado.**
+
+![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/seção_03/teste_TMDB-01.png)
+
+**Evidência 09 - resultado da execução.**
+
+![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/seção_03/teste_TMDB-02.png)
