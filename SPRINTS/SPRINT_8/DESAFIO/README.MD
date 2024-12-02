@@ -210,7 +210,7 @@ job.commit()
 
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_02.png)
 
-**Evidência 08 - O Crawlers executado.**
+**Evidência 08 -  A tabela formada.**
 
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_03.png)
 
