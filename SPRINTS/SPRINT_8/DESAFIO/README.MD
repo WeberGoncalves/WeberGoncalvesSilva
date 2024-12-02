@@ -202,18 +202,18 @@ print("Glue Data Catalog atualizado com sucesso.")
 
 job.commit()
 ```
-**Evidência 06 - .**
+**Evidência 06 - código dentro job da Aws Glue .**
 
-![weber](/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_01.png)
+![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_01.png)
 
-**Evidência 07 - .**
+**Evidência 07 - evidência que a execução deu certo o código.**
 
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_02.png)
 
-**Evidência 08 - .**
+**Evidência 08 - O Crawlers executado.**
 
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_03.png)
 
-**Evidência 09 - .**
+**Evidência 09 - execução do SQL dentro Athena mostrando teve 10 resultados.**
 
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_04.png)
