@@ -217,3 +217,9 @@ job.commit()
 **Evidência 09 - execução do SQL dentro Athena mostrando teve 10 resultados.**
 
 ![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_04.png)
+
+# **Questões que serão respondidas na ultima etapa do desafio?**
+
+**Quero saber que para genero crime e guerra, o artista principal que tem maiores notas é ator ou atriz?**
+**para genero crime qual personagem artistico que mais aparece?**
+**Na cinco ultimas decadas, qual delas teve maior nota media?**
