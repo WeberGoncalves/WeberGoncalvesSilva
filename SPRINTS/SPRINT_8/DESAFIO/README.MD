@@ -220,6 +220,6 @@ job.commit()
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
 
-**Quero saber que para genero crime e guerra, o artista principal que tem maiores notas é ator ou atriz?**
-**para genero crime qual personagem artistico que mais aparece?**
+**Quero saber que para genero crime, o artista principal que tem maiores notas é ator ou atriz?**
+**para genero crime, ator ou atriz, avaliar popularidade ao longo dos anos?**
 **Na cinco ultimas decadas, qual delas teve maior nota media?**
