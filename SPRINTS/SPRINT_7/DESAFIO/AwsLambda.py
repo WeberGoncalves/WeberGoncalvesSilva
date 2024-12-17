@@ -5,7 +5,7 @@ import boto3
 import os
 
 # Função para buscar filmes pelo TMDb
-def buscar_filmes(chave_api, genero_id, ano_inicio, ordenacao="vote_average.desc", limite=100):
+def buscar_filmes(chave_api, genero_id, ano_inicio, ordenacao="vote_average.desc", limite=5000):
     url_base = "https://api.themoviedb.org/3/discover/movie"
     filmes = []
     pagina = 1
@@ -33,7 +33,37 @@ def buscar_filmes(chave_api, genero_id, ano_inicio, ordenacao="vote_average.desc
             print(f"Erro na página {pagina}: {resposta.status_code}")
             break
 
-    return filmes[:limite]
+    filmes_detalhados = []
+    for filme in filmes[:limite]:
+        filme_id = filme["id"]
+        detalhes = buscar_detalhes_filme(chave_api, filme_id)
+        if detalhes:
+            if detalhes["orcamento"] > 1000 and detalhes["receita"] > 1000:
+                filmes_detalhados.append(detalhes)
+
+    return filmes_detalhados
+
+# Função para buscar detalhes do filme pelo TMDb
+def buscar_detalhes_filme(chave_api, filme_id):
+    url_base = f"https://api.themoviedb.org/3/movie/{filme_id}"
+    parametros = {"api_key": chave_api, "language": "en-US"}
+
+    resposta = requests.get(url_base, params=parametros)
+    if resposta.status_code == 200:
+        dados = resposta.json()
+        return {
+            "titulo": dados.get("title"),
+            "ano": dados.get("release_date", "").split("-")[0],
+            "genero": ", ".join([g["name"] for g in dados.get("genres", [])]),
+            "numero_de_votos": dados.get("vote_count"),
+            "nota_media": dados.get("vote_average"),
+            "nome_artistico": ", ".join([p["name"] for p in dados.get("credits", {}).get("cast", [])]),
+            "orcamento": dados.get("budget"),
+            "receita": dados.get("revenue"),
+        }
+    else:
+        print(f"Erro ao buscar detalhes do filme {filme_id}: {resposta.status_code}")
+        return None
 
 # Função para salvar resultados em arquivos JSON agrupados no S3
 def salvar_arquivos_json_agrupados(filmes, bucket_name, s3_client):
@@ -41,9 +71,9 @@ def salvar_arquivos_json_agrupados(filmes, bucket_name, s3_client):
     prefixo_s3 = f"RAW/TMDB/json/{data_processamento}/"
     print(f"Prefixo S3: {prefixo_s3}")
 
-    for i in range(0, len(filmes), 100):
-        chunk = filmes[i:i + 100]
-        nome_arquivo = f"filmes_{i // 100 + 1}.json"
+    for i in range(0, len(filmes), 1000):
+        chunk = filmes[i:i + 1000]
+        nome_arquivo = f"filmes_{i // 1000 + 1}.json"
         caminho_local = f"/tmp/{nome_arquivo}"
 
         # Salvar o arquivo temporariamente no /tmp
@@ -74,13 +104,13 @@ def lambda_handler(event, context):
             raise ValueError("As variáveis de ambiente TMDB_API_KEY e S3_BUCKET_NAME devem estar configuradas.")
 
         genero_crime_id = 80  # ID do gênero Crime no TMDb
-        ano_inicio = datetime.now().year - 30
+        ano_inicio = datetime.now().year - 50
 
         # Cliente S3
         s3_client = boto3.client("s3")
 
         # Buscar filmes
-        filmes_crime = buscar_filmes(chave_api, genero_crime_id, ano_inicio, "vote_average.desc", 100)
+        filmes_crime = buscar_filmes(chave_api, genero_crime_id, ano_inicio, "vote_average.desc", 5000)
 
         # Salvar arquivos no S3
         salvar_arquivos_json_agrupados(filmes_crime, bucket_name, s3_client)
