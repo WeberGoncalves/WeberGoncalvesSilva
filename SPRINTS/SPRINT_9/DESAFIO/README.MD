@@ -173,24 +173,31 @@ job.commit()
 
 **Evidência 08 -  A tabela formada.**
 
-![weber](/SPRINT_9/EVIDÊNCIAS/4A_arquivos_csv_json.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/4A_arquivos_csv_json.png)
 
 **Evidência 09 - execução do SQL dentro Athena mostrando teve 10 resultados.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/5A_Dim_artistico.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/5B_Dim_artistico.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/6A_Dim_tempo.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/6B_Dim_tempo.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/7A_Dim_filme.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/7B_Dim_filme.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/8A_Fato_filme.png)
 
+**Evidência 08 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/8B_Fato_filme.png)
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
