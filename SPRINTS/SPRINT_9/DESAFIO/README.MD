@@ -1,4 +1,5 @@
-DESAFIO## Seção 04 Desafio da sprint
+# DESAFIO
+## Seção 04 Desafio da sprint
 
 **Neste desafio foi realizado com script em pyspark no Job no Glue, foi realizado algumas limpezas dos dados, para depois juntas os Dataframes originados dos arquivos CSV e JSON.**
 
@@ -150,7 +151,7 @@ job.commit()
 
 **Evidência 03 - O Crawlers executado .**
 
-![weber](/SPRINT_9/EVIDÊNCIAS/0C_Bucket_data_lake_weber_Tabelas.png)
+![weber](.../SPRINT_9/EVIDÊNCIAS/0C_Bucket_data_lake_weber_Tabelas.png)
 
 **Evidência 04 - A tabela formada.**
 
