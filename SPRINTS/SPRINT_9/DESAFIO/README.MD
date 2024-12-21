@@ -143,7 +143,7 @@ job.commit()
 ```
 **Evidência 01 - código dentro job da Aws Glue .**
 
-![weber](//SPRINT_9/EVIDÊNCIAS/0A_Bucket_data_lake_weber.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/0A_Bucket_data_lake_weber.png)
 
 **Evidência 02 - evidencia que a execução deu certo o código .**
 
@@ -151,33 +151,43 @@ job.commit()
 
 **Evidência 03 - O Crawlers executado .**
 
-![weber](.../SPRINT_9/EVIDÊNCIAS/0C_Bucket_data_lake_weber_Tabelas.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/0C_Bucket_data_lake_weber_Tabelas.png)
 
 **Evidência 04 - A tabela formada.**
 
-![weber](/SPRINT_9/EVIDÊNCIAS/1A_job_sprint09.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/1A_job_sprint09.png)
 
 **Evidência 05 - execução do SQL dentro Athena mostrando teve 10 resultados.**
 
-![weber](/SPRINT_9/EVIDÊNCIAS/1B_job_sprint09_sucesso.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/1B_job_sprint09_sucesso.png)
 
 **Script no Job Glue processar arquivo JON.**
 
 **Evidência 06 - código dentro job da Aws Glue .**
 
-![weber](/SPRINT_9/EVIDÊNCIAS/2_Crawlers.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/2_Crawlers.png)
 
 **Evidência 07 - evidência que a execução deu certo o código.**
 
-![weber](/SPRINT_9/EVIDÊNCIAS/3_tabelas-formadas.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/3_tabelas-formadas.png)
 
 **Evidência 08 -  A tabela formada.**
 
-![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_03.png)
+![weber](/SPRINT_9/EVIDÊNCIAS/4A_arquivos_csv_json.png)
 
 **Evidência 09 - execução do SQL dentro Athena mostrando teve 10 resultados.**
 
-![weber](/SPRINTS/SPRINT_8/EVIDÊNCIAS/Desafio/sprint_08_json_04.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/5A_Dim_artistico.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/5B_Dim_artistico.png)
+
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/6A_Dim_tempo.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/6B_Dim_tempo.png)
+
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/7A_Dim_filme.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/7B_Dim_filme.png)
+
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/8A_Fato_filme.png)
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/8B_Fato_filme.png)
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
 
