@@ -178,15 +178,19 @@ job.commit()
 **Evidência 09 - execução do SQL dentro Athena mostrando teve 10 resultados.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/5A_Dim_artistico.png)
+
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/5B_Dim_artistico.png)
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/6A_Dim_tempo.png)
+
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/6B_Dim_tempo.png)
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/7A_Dim_filme.png)
+
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/7B_Dim_filme.png)
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/8A_Fato_filme.png)
+
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Desafio/8B_Fato_filme.png)
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
