@@ -173,21 +173,22 @@ job.commit()
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/4A_arquivos_csv_json.png)
 
-**Evidência 09 - como ficou a junção dos arquivos csv e json.**
+**Evidência 09 - Como ficou a junção dos arquivos csv e json.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/4B_arquivos_csv_json.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 10 -  Consulta da tabela Dim_artistico.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/5A_Dim_artistico.png)
 
-**Evidência 11 -  A tabela formada.**
+**Evidência 11 -  Visualização da tabela Dim_artistico.**
+
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/5B_Dim_artistico.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 12 -  Consulta da tabela Dim_tempo.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6A_Dim_tempo.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 13 -  Visualização da tabela Dim_tempo.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6B_Dim_tempo.png)
 
 **Evidência 10 -  A tabela formada.**
