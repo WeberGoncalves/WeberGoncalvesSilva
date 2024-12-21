@@ -141,63 +141,65 @@ inserir_dados(df_junto)
 job.commit()
 
 ```
-**Evidência 01 - código dentro job da Aws Glue .**
+**Evidência 01 - organizção da pasta REFINED dentro AWS S3 .**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/0A_Bucket_data_lake_weber.png)
 
-**Evidência 02 - evidencia que a execução deu certo o código .**
+**Evidência 02 - organizção da pasta em formato de data ano/mês/dia, e a junção dos arquivos csv e json .**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/0B_Bucket_data_lake_weber_uniao_csv_json.png)
 
-**Evidência 03 - O Crawlers executado .**
+**Evidência 03 - organizção da pasta em formato de data ano/mês/dia,as tabelas geradas após a modelagem dimensional .**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/0C_Bucket_data_lake_weber_Tabelas.png)
 
-**Evidência 04 - A tabela formada.**
+**Evidência 04 - trecho do algoritmo que foi execultado dendo AWS Glue para juntar arquivos csv e json, e depois criar as tabelas.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/1A_job_sprint09.png)
 
-**Evidência 05 - execução do SQL dentro Athena mostrando teve 10 resultados.**
+**Evidência 05 - execução bem sucedida do job_sprint9.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/1B_job_sprint09_sucesso.png)
 
-**Script no Job Glue processar arquivo JON.**
-
-**Evidência 06 - código dentro job da Aws Glue .**
+**Evidência 06 - execução bem sucedida do Crawlers da sprint9 .**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/2_Crawlers.png)
 
-**Evidência 07 - evidência que a execução deu certo o código.**
+**Evidência 07 - As tabelas geradas após a execução do Crawlers da sprint9.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/3_tabelas-formadas.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 08 -  A tabela execultada após a junção dos arquivos csv e json.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/4A_arquivos_csv_json.png)
 
-**Evidência 09 - execução do SQL dentro Athena mostrando teve 10 resultados.**
+**Evidência 09 - como ficou a junção dos arquivos csv e json.**
+
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/4B_arquivos_csv_json.png)
+
+**Evidência 10 -  A tabela formada.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/5A_Dim_artistico.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 11 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/5B_Dim_artistico.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 10 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6A_Dim_tempo.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 10 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6B_Dim_tempo.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 10 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/7A_Dim_filme.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 10 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/7B_Dim_filme.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 10 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/8A_Fato_filme.png)
 
-**Evidência 08 -  A tabela formada.**
+**Evidência 10 -  A tabela formada.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/8B_Fato_filme.png)
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
