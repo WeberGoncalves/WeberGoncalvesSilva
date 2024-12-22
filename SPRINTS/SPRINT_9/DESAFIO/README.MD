@@ -184,7 +184,6 @@ job.commit()
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Mod_Dim_Conceitual_Filmes.png)
 
 **Evidência 11 - Modelagem Dimensional do modelo Lógico.**
-
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Mod_Dim_Lógico_Filmes.png)
 
 **Evidência 12 -  Consulta da tabela Dim_artistico.**
