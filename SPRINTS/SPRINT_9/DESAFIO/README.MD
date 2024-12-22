@@ -191,20 +191,20 @@ job.commit()
 **Evidência 13 -  Visualização da tabela Dim_tempo.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6B_Dim_tempo.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 14 -  Consulta da tabela Dim_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/7A_Dim_filme.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 15 -  Visualização da tabela Dim_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/7B_Dim_filme.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 16 -  Consulta da tabela Fato_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/8A_Fato_filme.png)
 
-**Evidência 10 -  A tabela formada.**
+**Evidência 17 - Visualização da tabela Fato_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/8B_Fato_filme.png)
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
 
 **Quero saber que para genero crime, o artista principal que tem maiores notas é ator ou atriz?**
 **para genero crime, ator ou atriz, avaliar popularidade ao longo dos anos?**
-**Na cinco ultimas decadas, qual delas teve maior nota media?**
+**Na cinco ultimas decadas, qual delas teve maior receita media?**
