@@ -177,30 +177,40 @@ job.commit()
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/4B_arquivos_csv_json.png)
 
-**Evidência 10 -  Consulta da tabela Dim_artistico.**
+## **Modelagem Dimensional**
+
+**Evidência 10 - Modelagem Dimensional do modelo Conceitual.**
+
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Mod_Dim_Conceitual_Filmes.png)
+
+**Evidência 11 - Modelagem Dimensional do modelo Lógico.**
+
+![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/Mod_Dim_Lógico_Filmes.png)
+
+**Evidência 12 -  Consulta da tabela Dim_artistico.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/5A_Dim_artistico.png)
 
-**Evidência 11 -  Visualização da tabela Dim_artistico.**
+**Evidência 13 -  Visualização da tabela Dim_artistico.**
 
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/5B_Dim_artistico.png)
 
-**Evidência 12 -  Consulta da tabela Dim_tempo.**
+**Evidência 14 -  Consulta da tabela Dim_tempo.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6A_Dim_tempo.png)
 
-**Evidência 13 -  Visualização da tabela Dim_tempo.**
+**Evidência 15 -  Visualização da tabela Dim_tempo.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/6B_Dim_tempo.png)
 
-**Evidência 14 -  Consulta da tabela Dim_filme.**
+**Evidência 17 -  Consulta da tabela Dim_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/7A_Dim_filme.png)
 
-**Evidência 15 -  Visualização da tabela Dim_filme.**
+**Evidência 18 -  Visualização da tabela Dim_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/7B_Dim_filme.png)
 
-**Evidência 16 -  Consulta da tabela Fato_filme.**
+**Evidência 19 -  Consulta da tabela Fato_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/8A_Fato_filme.png)
 
-**Evidência 17 - Visualização da tabela Fato_filme.**
+**Evidência 20 - Visualização da tabela Fato_filme.**
 ![weber](/SPRINTS/SPRINT_9/EVIDÊNCIAS/8B_Fato_filme.png)
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
