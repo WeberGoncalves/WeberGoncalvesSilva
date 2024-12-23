@@ -1,7 +1,7 @@
 # DESAFIO
 ## Seção 04 Desafio da sprint
 
-**Neste desafio foi realizado com script em pyspark no Job no Glue, foi realizado algumas limpezas dos dados, para depois juntas os Dataframes originados dos arquivos CSV e JSON.**
+**Neste desafio foi realizado com script em pyspark no Job no Glue, foi realizado algumas limpezas dos dados, para depois juntar os Dataframes originados dos arquivos CSV e JSON.**
 
 **Script no Job Glue processar arquivo da junção e Modelagem.**
 **Neste script separarei cada tarefa a ser feita por funções, ler arquivos, limpar, juntar, filtrar e criar tabelas modeladas e salvar no bucket, aproveite consertei os caminhos(ano/mês/dia) job_csv e job_json, conforme o Feedback Técnico.**
