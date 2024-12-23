@@ -214,6 +214,7 @@ job.commit()
 
 # **Questões que serão respondidas na ultima etapa do desafio?**
 
-**Quero saber que para genero crime, o artista principal que tem maiores notas é ator ou atriz?**
+**Quero saber dentro do genero crime, o gênero artístico que tem maiores notas é ator ou atriz?**
 **para genero crime, ator ou atriz, avaliar popularidade ao longo dos anos?**
 **Na cinco ultimas decadas, qual delas teve maior receita media?**
+**Objetivo é descobri o gosto geral das pessoas do genero de crime, ao logo de cinco decadas pelo gênero artístico, tanto por meio das notas e receita.**
