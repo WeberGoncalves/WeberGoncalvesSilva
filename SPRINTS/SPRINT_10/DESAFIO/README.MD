@@ -2,7 +2,7 @@
 
 **No último desafio das sprints, foi realizado analise dos dados do arquivo filmes.csv e dados da extensão .json, extraído por meio de algoritmo executado no aws lambda, para complementar o arquivo CSV, foi necessário realizar um limpeza e juntas os arquivos, e realizar modelagem dimensional para depois usar a ferramenta aws Quicksight para realizar analise por meio dos gráficos que explicarei a seguir.**
 
-## Nesta Análise tem objetivo verificar o quanto publico geral gosta do genero crime em filmes,em que década teve mais atenção, e dentro deste genero crime foi analisado a preferência por genero artistico, para investigar foi usado dados sobre notas medias dos filmes, orçamento, e lucro. Esses dados foram distribuido nos graficos por ano, décadas e lucros.
+**Nesta Análise tem objetivo verificar o quanto publico geral gosta do genero crime em filmes,em que década teve mais atenção, e dentro deste genero crime foi analisado a preferência por genero artistico, para investigar foi usado dados sobre notas medias dos filmes, orçamento, e lucro. Esses dados foram distribuido nos graficos por ano, décadas e lucros.**
 
 
 **Evidência 01 -Os dados modelados foram retirados do bucket data-lake-do-weber no AWS S3 e vinculado ao quicksight.**
