@@ -39,6 +39,6 @@
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/7_Quicksight_Grafico_05.png)
 
 ## **Dashboard Completo.**
-**Obs: Tem uma copia em PDF com melhor visualização.**
+**Obs: Tem uma copia em PDF com melhor visualização na pasta evidências.**
 
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/Dashboard_filmes.png)
