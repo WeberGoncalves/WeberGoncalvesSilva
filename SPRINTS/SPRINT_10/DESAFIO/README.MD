@@ -40,4 +40,4 @@
 
 ## **Dashboard Completo.**
 
-![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/Dashboard_Quicksight.pdf)
+![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/Dashboard_filmes.png)
