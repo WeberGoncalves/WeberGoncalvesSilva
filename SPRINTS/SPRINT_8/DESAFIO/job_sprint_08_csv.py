@@ -1,25 +1,27 @@
 import sys
+from datetime import datetime
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
 from awsglue.utils import getResolvedOptions
-from pyspark.sql.functions import current_date, year, month, dayofmonth, col, trim
+from pyspark.sql.functions import current_date, year, col, trim, row_number
+from pyspark.sql.window import Window
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, DoubleType
 
 # Inicialização do contexto Glue
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
-sc = SparkContext()  # Criando SparkContext
-glueContext = GlueContext(sc)  # Criando GlueContext
-spark = glueContext.spark_session  # Criando SparkSession a partir do Glue Context
-job = Job(glueContext)
+contexto_spark = SparkContext()
+contexto_glue = GlueContext(contexto_spark)
+spark = contexto_glue.spark_session
+job = Job(contexto_glue)
 job.init(args['JOB_NAME'], args)
 
 # Caminhos S3
-raw_s3_path = "s3://data-lake-do-weber/RAW/Local/CSV/Movies/2024-11-06/movies.csv"
-trusted_s3_path = "s3://data-lake-do-weber/TRUSTED/Parquet/"
+caminho_raw_s3 = "s3://data-lake-do-weber/RAW/Local/CSV/Movies/2024-11-06/movies.csv"
+caminho_trusted_s3 = "s3://data-lake-do-weber/TRUSTED/CSV/{ano}/{mes}/{dia}"
 
 # Definição do esquema explícito para o arquivo CSV
-schema = StructType([
+esquema = StructType([
     StructField("id", StringType(), True),
     StructField("tituloPrincipal", StringType(), True),
     StructField("tituloOriginal", StringType(), True),
@@ -37,39 +39,48 @@ schema = StructType([
     StructField("titulosMaisConhecidos", StringType(), True),
 ])
 
-# Lendo dados CSV com esquema definido
-raw_data_df = spark.read.csv(
-    path=raw_s3_path,
-    schema=schema,
+# Lendo dados CSV com esquema definido e separador de coluna "|"
+dados_raw_df = spark.read.csv(
+    path=caminho_raw_s3,
+    schema=esquema,
     header=True,
-    sep=","
+    sep="|"
 )
 
-# Redução e limpeza de colunas
-columns_to_select = [
-    "tituloOriginal", "anoLancamento", "genero", 
-    "notaMedia", "numeroVotos", "generoArtista", 
-    "personagem", "nomeArtista"
+# Seleção das colunas desejadas
+colunas_para_selecionar = [
+    "tituloPrincipal", "anoLancamento", "genero", "notaMedia", "numeroVotos", "generoArtista", "nomeArtista"
 ]
-
-cleaned_data_df = raw_data_df.select(*columns_to_select) \
-    .withColumn("tituloOriginal", trim(col("tituloOriginal"))) \
+dados_limpos_df = dados_raw_df.select(*colunas_para_selecionar) \
+    .withColumn("tituloPrincipal", trim(col("tituloPrincipal"))) \
     .withColumn("genero", trim(col("genero"))) \
     .withColumn("generoArtista", trim(col("generoArtista"))) \
-    .withColumn("personagem", trim(col("personagem"))) \
     .withColumn("nomeArtista", trim(col("nomeArtista")))
 
-# Adicionando metadados
-trusted_data = cleaned_data_df \
-    .withColumn("data_criacao", current_date()) \
-    .withColumn("ano", year(current_date())) \
-    .withColumn("mes", month(current_date())) \
-    .withColumn("dia", dayofmonth(current_date()))
+# Filtrando os 30 filmes do gênero crime com maiores notaMedia, dos últimos 40 anos
+ano_atual = year(current_date())
+dados_filtrados_df = dados_limpos_df.filter(
+    (col("genero") == "Crime") & (col("anoLancamento") >= ano_atual - 40)
+).orderBy(col("notaMedia").desc()).limit(1000)
 
-# Persistindo os dados na camada Trusted no formato PARQUET, particionados por ano/mês/dia
-trusted_data.write.mode("overwrite").partitionBy("ano", "mes", "dia").format("parquet").save(trusted_s3_path)
+# Removendo duplicatas para garantir títulos originais únicos
+especificacao_janela = Window.partitionBy("tituloPrincipal").orderBy(col("notaMedia").desc())
+titulos_unicos_df = dados_filtrados_df.withColumn("numero_linha", row_number().over(especificacao_janela)) \
+    .filter(col("numero_linha") == 1).drop("numero_linha")
 
-print(f"Dados processados e salvos na camada Trusted no caminho: {trusted_s3_path}")
+# Define dados_trusted
+dados_trusted = titulos_unicos_df
 
-# Commit do job Glue
+# Obtendo a data atual
+data_atual = datetime.now()
+ano = data_atual.year
+mes = str(data_atual.month).zfill(2)  
+dia = str(data_atual.day).zfill(2)
+
+# Caminho para salvar dados particionados
+caminho_trusted_final = caminho_trusted_s3.format(ano=ano, mes=mes, dia=dia)
+
+# Persistindo os dados na camada Trusted no formato PARQUET, particionados por ano/mês/dia corrente
+dados_trusted.write.mode("overwrite").format("parquet").save(caminho_trusted_final)
+
 job.commit()
