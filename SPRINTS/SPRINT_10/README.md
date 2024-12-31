@@ -1,5 +1,10 @@
-Descrição
-Obrigatoriamente deve conter uma foto sua (não usar avatares), seu nome, sua cidade, 
-informações sobre o curso que está fazendo (semestre, instituição, ...) e informações 
-sobre experiências e conhecimentos na área (se houver).
-Outras informações que julgar importantes, também podem ser adicionadas.
+# Como foi a experiência?
+
+**Na sprint 10, tive a oportunidade de aprender mais uma ferramenta da AWS, Quicksight, para desenvolver um Dashboard.**
+
+## Quanto ao aprendizado
+**aprendi a fazer usar campo calculado para criar coluna que não tinha nas tabelas do banco vinculado no quicksight, e a fazer gráficos, e algumas configurações da ferramenta.**
+
+### Seção 04 - Desafio da sprint 10
+
+* [**--  Desafio --**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_10/DESAFIO)
