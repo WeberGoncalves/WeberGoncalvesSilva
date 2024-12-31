@@ -9,4 +9,6 @@
 
 * [**--  Desafio --**](https://github.com/WeberGoncalves/WeberGoncalvesSilva/tree/main/SPRINTS/SPRINT_10/DESAFIO)
 
+
 # Prefiro trabalhar com Engenharia de Dados.
+**Embora tenha gostado do processo todo de ETL, pois amo informática, mas gosto mais de codigos seja SQL, Python ou Spark.**
