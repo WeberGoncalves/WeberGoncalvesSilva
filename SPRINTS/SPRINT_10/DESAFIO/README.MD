@@ -34,6 +34,6 @@
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/6_Quicksight_Grafico_04.png)
 
 
-**Evidência 07 - Como já observado no gráfico anterior, neste gráfico também evidência é para a preferência por ator, então ao desenvolver um projeto de filme é melhor usar ator para ter maior lucro como gráfico mostra.**
+**Evidência 07 - Como já observado no gráfico anterior, neste gráfico também a evidência é para a preferência por ator, então ao desenvolver um projeto de filme é melhor usar ator para ter maior lucro como gráfico mostra.**
 
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/7_Quicksight_Grafico_05.png)
