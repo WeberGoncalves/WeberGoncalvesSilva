@@ -24,16 +24,16 @@
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/4_Quicksight_Grafico_02.png)
 
 
-**Evidência 05 - .**
+**Evidência 05 - Agora inspecionando a preferência pelo gênero artístico, observamos a nota media dos filmes por gênero artístico, em que o protagonista ator ficou em mais evidencia do que as atrizes.**
 
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/5_Quicksight_Grafico_03.png)
 
 
-**Evidência 06 - .**
+**Evidência 06 - Seguindo raciocínio do gráfico anterior, mas agora observando a receita, o dinheiro gerado pelos filmes por gênero artístico, esta indicando a preferência maior por ator como protagonista.**
 
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/6_Quicksight_Grafico_04.png)
 
 
-**Evidência 07 - .**
+**Evidência 07 - Como já observado no gráfico anterior, neste gráfico também evidência é para a preferência por ator, então ao desenvolver um projeto de filme é melhor usar ator para ter maior lucro como gráfico mostra.**
 
 ![weber](/SPRINTS/SPRINT_10/EVIDÊNCIAS/7_Quicksight_Grafico_05.png)
