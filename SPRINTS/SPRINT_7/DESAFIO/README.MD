@@ -136,19 +136,20 @@ if __name__ == "__main__":
 
 ### **Para executar a função aws lambda, foi necessario criar uma camada 'Layer' com as bibliotecas requests e Tmdb **
 
-´´´ 
+```yaml annotate
 cd ~		    #comando muda o diretório atual para o diretório home do usuário.
 mkdir layer_dir  #cria um diretório chamado layer_dir no diretório atual
 cd layer_dir/    #muda o diretório atual para o diretório layer_dir
 mkdir python     #muda o diretório atual para o diretório python
 cd python/       #comando muda o diretório atual para o diretório python
 pwd              #o comando para imprimir o diretório de trabalho atual
+
 pip3 install requests -t . # Este comando instala a biblioteca requests usando o pip3, o instalador de pacotes para Python 3. 
 pip3 install tmdbv3api -t . #comando para instalar a biblioteca tmdbv3api e a colocará no seu diretório de trabalho atual.
 cd ..
 Compress-Archive -Path "\Users\webgs\layer_dir\python" -DestinationPath "\Users\webgs\layer_dir\tmdbLayer.zip" #comando para terminal do Windows para Compactar todos os arquivos em um arquivo chamado tmdbLayer.zip
 docker container ls
-´´´
+```
 **Evidência 03- criação do diretório onde ocorrera instalações das bibliotecas.**
 
 ![weber](/SPRINTS/SPRINT_7/EVIDÊNCIAS/Layer_01_A-criandoPath.png)
