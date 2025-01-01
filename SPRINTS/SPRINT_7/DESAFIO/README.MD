@@ -1,6 +1,6 @@
 # DESAFIO sprint 07
 
-**NNesse desafio tive a oportunidade de utiliza uma nova biblioteca, a TMDB, pude praticar criar um layer para essa biblioteca, criei algoritmo de busca de filmes no vs code e depois reescrever para usara-lo no aws lambda.**
+**Nesse desafio tive a oportunidade de utiliza uma nova biblioteca, a TMDB, pude praticar criar um layer para essa biblioteca, criei algoritmo de busca de filmes no vs code e depois reescrever para usara-lo no aws lambda.**
 
 **Evidência 01 - foi necessario criar conta no site TMDB para poder utilizar cheve apiTmdb.**
 
@@ -43,6 +43,7 @@ display(df)
 **Nessa fase realizei testes do algoritmo `VScodeLambda.py` no vs code, e gerou resultados com nome `analise_filmes_historicos_dramas.json`como pode observa os arquivos na pasta desafio.**
 
 **Algoritmo utilizado no vs code.**
+
 ```yaml annotate
 import requests
 import json
