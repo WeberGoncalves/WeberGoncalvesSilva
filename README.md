@@ -10,19 +10,19 @@
 ### Informações Pessoais
 <div align="left">
 
-* ![weber](IMG/planetA.png) **Localização:** Inhambupe BA.
+* ![weber](IMG/planetA.png) **Localização:** Serra -ES.
 
-* ![weber](IMG/faculdadeA.png) **Instituição de Ensino:** Senac.
+* ![weber](IMG/faculdadeA.png) **Instituição de Ensino:** Uniasselvi.
 
 * ![weber](IMG/cursoA.png) **Curso:** *Tecnologia em Sistemas para Internet.*
 
-* ![weber](IMG/semestreA.png) **Semenstre Atual:** Quarto
+* ![weber](IMG/semestreA.png) **Semenstre Atual:** Quinto
 
 * ![weber](IMG/cursoA.png) **Nível Médio:** *Técnico em Informática-IFES.*
 
 * ![weber](IMG/empregoA.png) **Experiência na Área:** Nenhuma ainda.
 
-* ![weber](IMG/conhecimentoA.png) **Conhecimentos:** HTML, CSS,JavaScript,Python.
+* ![weber](IMG/conhecimentoA.png) **Conhecimentos:** HTML, CSS,JavaScript, Node.js ,Python.
 
 * ![weber](IMG/HobbiesA.png) **Hobbies:** Tira Fotos, Andar de Bicleta e Caminhar.
 
