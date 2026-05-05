@@ -20,7 +20,7 @@
 
 * ![weber](IMG/cursoA.png) **Nível Médio:** *Técnico em Informática-IFES.*
 
-* ![weber](IMG/empregoA.png) **Experiência na Área:** Nenhuma ainda.
+* ![weber](IMG/empregoA.png) **Experiência na Área:** Estágio em Ciência de Dados.
 
 * ![weber](IMG/conhecimentoA.png) **Conhecimentos:** HTML, CSS,JavaScript, Node.js ,Python.
 
